@@ -56,5 +56,8 @@
     <Image Include="res\testQ.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="res\logo_lg.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

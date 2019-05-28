@@ -33,7 +33,11 @@
 
 #include <afxcontrolbars.h>     // MFC의 리본 및 컨트롤 막대 지원
 
-
+//
+//	openCV 헤더파일 추가
+//
+#include "opencv2/opencv.hpp" 
+using namespace cv;
 
 
 

@@ -212,6 +212,7 @@
     <None Include="res\testQ.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\logo_lg.png" />
     <Image Include="res\testQ.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

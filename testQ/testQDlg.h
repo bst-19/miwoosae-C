@@ -31,4 +31,23 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
+public:
+	// 동영상 출력을 위한 변수
+	CStatic m_picture;
+	afx_msg void OnDestroy();
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+
+	// 상태표시줄 (Status Bar) 표현을 위한 변수
+	CStatusBarCtrl m_StatusBar;
+
+	VideoCapture *capture;
+	Mat mat_frame;
+	Mat dst, detected_edges;
+	CImage cimage_mfc;
+
+	int low_threshold = 50;
+	int high_threshold = 150;
+
+	afx_msg void OnStnClickedPicture();
+	afx_msg void OnBnClickedOk();
 };
