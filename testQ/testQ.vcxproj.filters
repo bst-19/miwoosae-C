@@ -30,6 +30,9 @@
     <ClInclude Include="Resource.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="systems.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="testQ.cpp">
@@ -39,6 +42,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="systems.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,10 +59,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\logo_lg.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\testQ.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
     <Image Include="res\testQ.ico">
       <Filter>리소스 파일</Filter>
     </Image>
-    <Image Include="res\logo_lg.png">
+    <Image Include="res\bird.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bird.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

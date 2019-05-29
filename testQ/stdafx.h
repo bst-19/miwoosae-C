@@ -40,8 +40,12 @@
 using namespace cv;
 
 
-
-
+//
+// 디버그 모드일 때 콘솔창을 함께 출력하기 위한 함수
+//
+#ifdef _DEBUG
+#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
+#endif
 
 
 

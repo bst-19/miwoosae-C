@@ -191,6 +191,7 @@
   <ItemGroup>
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="systems.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testQ.h" />
     <ClInclude Include="testQDlg.h" />
@@ -202,6 +203,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="systems.cpp" />
     <ClCompile Include="testQ.cpp" />
     <ClCompile Include="testQDlg.cpp" />
   </ItemGroup>
@@ -212,6 +214,9 @@
     <None Include="res\testQ.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\testQ.ico" />
+    <Image Include="res\bird.bmp" />
+    <Image Include="res\bird.png" />
     <Image Include="res\logo_lg.png" />
     <Image Include="res\testQ.ico" />
   </ItemGroup>
