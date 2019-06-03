@@ -36,7 +36,7 @@
 //
 //	openCV 헤더파일 추가
 //
-#include "opencv2/opencv.hpp" 
+#include "opencv2/opencv.hpp"
 using namespace cv;
 
 

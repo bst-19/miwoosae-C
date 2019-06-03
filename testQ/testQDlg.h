@@ -91,7 +91,8 @@ public:
 	CStatic m_txt_IR;
 	CButton m_btn_off;
 	CButton m_btn_on;
-	afx_msg void OnBnClickedBtnOff();
+	afx_msg void OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult);
 	afx_msg void OnBnClickedBtnOn();
+	afx_msg void OnBnClickedBtnOff();
 	afx_msg void OnBnClickedStart();
 };
