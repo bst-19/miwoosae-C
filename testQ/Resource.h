@@ -15,13 +15,10 @@
 #define IDC_START                       1004
 #define IDC_BIRD                        1005
 #define IDC_BOX1                        1008
-#define IDC_BOX2                        1009
-#define IDC_BOX3                        1010
 #define IDC_COMBO1                      1014
 #define IDC_STATIC_REPEAT               1015
 #define IDC_STATIC_IR                   1016
 #define IDC_BTN_ON                      1019
-#define IDC_BUTTON2                     1020
 #define IDC_BTN_OFF                     1020
 #define IDB_LOGO                        65535
 

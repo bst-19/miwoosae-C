@@ -11,7 +11,7 @@
 class CtestQDlg : public CDialogEx
 {
 
-	#define WINDOW_WIDTH		(1000)
+	#define WINDOW_WIDTH		(350)
 	#define WINDOW_HEIGHT		(600)
 	#define WINDOW_MARGIN		(25)
 
@@ -57,12 +57,15 @@ public:
 	LPWSTR version_info = L"ver 0.1";
 	LPWSTR team_info = L"team BST";
 	LPWSTR time_info;
-	LPWSTR vender_info = L"LG전자 BS사업본부 ID SW개발실";
+	LPWSTR vender_info = L"ID SW개발실";
 
 	// 현재상태 갱신을 위한 변수
 	enum ThreadWorking {
 		RUN = 0
 	};
+
+	CCriticalSection g_cs_status;
+	int test_status;
 
 	bool m_bThreadStart;
 	CWinThread *m_pThread;
@@ -88,4 +91,7 @@ public:
 	CStatic m_txt_IR;
 	CButton m_btn_off;
 	CButton m_btn_on;
+	afx_msg void OnBnClickedBtnOff();
+	afx_msg void OnBnClickedBtnOn();
+	afx_msg void OnBnClickedStart();
 };

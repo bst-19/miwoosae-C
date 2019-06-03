@@ -59,4 +59,6 @@ using namespace cv;
 #endif
 #endif
 
+#pragma warning(disable:4996)
+
 

@@ -20,12 +20,12 @@ class CAboutDlg : public CDialogEx
 public:
 	CAboutDlg();
 
-// 대화 상자 데이터입니다.
+	// 대화 상자 데이터입니다.
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_ABOUTBOX };
 #endif
 
-	protected:
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 지원입니다.
 
 // 구현입니다.
@@ -60,8 +60,6 @@ void CtestQDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_PICTURE, m_picture);
 	DDX_Control(pDX, IDC_LOG, m_list);
 	DDX_Control(pDX, IDC_BOX1, m_box1);
-	DDX_Control(pDX, IDC_BOX2, m_box2);
-	DDX_Control(pDX, IDC_BOX3, m_box3);
 	DDX_Control(pDX, IDC_BIRD, m_bird_pic);
 	DDX_Control(pDX, IDC_START, m_btn_start);
 	DDX_Control(pDX, IDC_COMBO1, m_repeat_combo);
@@ -82,6 +80,9 @@ BEGIN_MESSAGE_MAP(CtestQDlg, CDialogEx)
 	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LIST1, &CtestQDlg::OnLvnItemchangedList1)
 	ON_WM_GETMINMAXINFO()
 	ON_STN_CLICKED(IDC_BIRD, &CtestQDlg::OnStnClickedBird)
+	ON_BN_CLICKED(IDC_BTN_OFF, &CtestQDlg::OnBnClickedBtnOff)
+	ON_BN_CLICKED(IDC_BTN_ON, &CtestQDlg::OnBnClickedBtnOn)
+	ON_BN_CLICKED(IDC_START, &CtestQDlg::OnBnClickedStart)
 END_MESSAGE_MAP()
 
 
@@ -120,14 +121,16 @@ BOOL CtestQDlg::OnInitDialog()
 
 	// SetWindowPos(NULL, x좌표, y좌표, 넓이, 높이, );
 	// 윈도우 크기 설정
+
 	this->SetWindowPos(NULL, 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT, SWP_NOREPOSITION);
+	this->MoveWindow(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
 
 	//
 	// Status Bar 설정을 위한 초기화 진행
 	m_StatusBar.Create(WS_CHILD | WS_VISIBLE | SBT_OWNERDRAW, CRect(0, 0, 0, 0), this, 0);
-	
 
-	int strPartDim[4] = { 40 , 100, 750, WINDOW_WIDTH - 1};
+
+	int strPartDim[4] = { 40 , 100, 200, WINDOW_WIDTH - 1 };
 	m_StatusBar.SetParts(4, strPartDim);
 
 	m_StatusBar.SetText(version_info, 0, 0);
@@ -139,14 +142,14 @@ BOOL CtestQDlg::OnInitDialog()
 	// List Control 설정을 위한 초기화 진행
 	int m_list_width = WINDOW_WIDTH - (2 * WINDOW_MARGIN);
 	int m_list_height = 100;
-	m_list.MoveWindow(WINDOW_MARGIN - 10, 600 - m_list_height - WINDOW_MARGIN*3,m_list_width, m_list_height);
+	m_list.MoveWindow(WINDOW_MARGIN - 10, 600 - m_list_height - WINDOW_MARGIN * 3, m_list_width, m_list_height);
 	m_list.ModifyStyle(0, LVS_NOCOLUMNHEADER);
 
 	// List Control의 크기를 얻어옴
 	LV_COLUMN add_column;
 	add_column.mask = LVCF_TEXT | LVCF_WIDTH | LVCF_FMT;
 	wchar_t *p_item_table[2] = { L"time", L"status" };
-	int item_size_table[2] = { 200, m_list_width - WINDOW_MARGIN - 200 };
+	int item_size_table[2] = { m_list_width - WINDOW_MARGIN - 80, 80 };
 
 	for (int i = 0; i < 2; i++) {
 		add_column.pszText = p_item_table[i];
@@ -154,7 +157,11 @@ BOOL CtestQDlg::OnInitDialog()
 		add_column.fmt = LVCFMT_CENTER;
 		m_list.InsertColumn(i + 1, &add_column);
 	}
-	if (m_pThread == NULL) {
+
+	//
+	// thread를 시작하는 부분
+	// 예제코드이므로 주석처리합니다.
+	/*if (m_pThread == NULL) {
 		m_pThread = AfxBeginThread(UpdateLog, this);
 
 		if (m_pThread == NULL) {
@@ -165,61 +172,42 @@ BOOL CtestQDlg::OnInitDialog()
 		m_ThreadWorkType = RUN;
 	}
 	else {
-		
-	}
-	m_list.InsertItem(0, get_time().c_str());
-	m_list.SetItemText(0, 1, L"프로그램이 시작되었습니다.");
+
+	}*/
+	g_cs_status.Lock();
+	test_status = 0;
+	g_cs_status.Unlock();
+
+	m_list.InsertItem(0, L"프로그램이 시작되었습니다.");
+	m_list.SetItemText(0, 1, get_time().c_str());
 
 	//
 	//	그룹 묶기
-	
+
 
 	//
 	// 1번박스
 	// 반복 콤보박스
-	m_box1.SetWindowPos(NULL, WINDOW_MARGIN, WINDOW_MARGIN, 300, WINDOW_HEIGHT - m_list_height - WINDOW_MARGIN * 5, NULL);
+	m_box1.SetWindowPos(NULL, WINDOW_MARGIN - 10, WINDOW_MARGIN, 300, WINDOW_HEIGHT - m_list_height - WINDOW_MARGIN * 5, NULL);
 	m_txt_repeat.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 2, 50, 20);
 	m_repeat_combo.MoveWindow(WINDOW_MARGIN + 100, WINDOW_MARGIN * 2, 100, 20);
-	
+
 	for (int i = 0; i < 12; i++) {
 		wstringstream temp_num;
 		temp_num << i + 1;
 		m_repeat_combo.InsertString(i, temp_num.str().c_str());
 	}
 	m_repeat_combo.SetCurSel(11);
+	m_btn_start.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN + 300 + 10, 270, 50);
 
-	//
-	// 2번 박스
-	// 이미지 및 시작버튼
-	m_box2.MoveWindow(WINDOW_MARGIN + 300 + WINDOW_MARGIN/2, WINDOW_MARGIN, 300, WINDOW_HEIGHT - m_list_height - WINDOW_MARGIN * 5);
-	
+	m_txt_IR.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 4 - 20, 100, 20);
+	m_btn_on.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 4, 120, 20);
+	m_btn_off.MoveWindow(WINDOW_MARGIN + 150, WINDOW_MARGIN * 4, 120, 20);
 
-	// 로고 추가
-	m_bird_pic.MoveWindow(WINDOW_MARGIN + 300 + WINDOW_MARGIN, WINDOW_MARGIN * 2, 270, 270);
-	HBITMAP hBmp = (HBITMAP)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDB_BIRD), IMAGE_BITMAP, 0, 0, LR_LOADMAP3DCOLORS);
-	m_bird_pic.SetBitmap(hBmp);
-	m_bird_pic.ShowWindow(SW_SHOW);
-	
-	m_btn_start.MoveWindow(WINDOW_MARGIN + 300 + WINDOW_MARGIN, WINDOW_MARGIN  + 300 + 10, 270, 50);
-
-
-	//
-	// 3번박스
-	// 동영상 및 IR 컨트롤
-	m_box3.MoveWindow(WINDOW_MARGIN + 600 + WINDOW_MARGIN, WINDOW_MARGIN, 300, WINDOW_HEIGHT - m_list_height - WINDOW_MARGIN * 5);
-
-	// IR을 컨트롤 하기 위한 부분
-	m_txt_IR.MoveWindow(WINDOW_MARGIN * 2 + 600 + 10, WINDOW_MARGIN * 2, 100, 20);
-	m_btn_on.MoveWindow(WINDOW_MARGIN * 2 + 600 + 10, WINDOW_MARGIN * 3 , 120, 20);
-	m_btn_off.MoveWindow(WINDOW_MARGIN * 2 + 750, WINDOW_MARGIN * 3, 120, 20);
-
-	//
-	//
-	//	동영상 출력을 위한 초기화 진행
 	int m_picture_width = 256;
 	int m_picture_height = 192;
-	m_picture.MoveWindow(WINDOW_WIDTH - WINDOW_MARGIN*3 - m_picture_width,
-		WINDOW_HEIGHT - m_list_height - m_picture_height - WINDOW_MARGIN * 5,
+	m_picture.MoveWindow(WINDOW_MARGIN + 10,
+		WINDOW_MARGIN * 5,
 		m_picture_width,
 		m_picture_height);
 
@@ -231,7 +219,7 @@ BOOL CtestQDlg::OnInitDialog()
 	// 웹캠 크기를 320 x 240 으로 지정
 	capture->set(CAP_PROP_FRAME_WIDTH, 500);
 	capture->set(CAP_PROP_FRAME_HEIGHT, 500);
-	
+
 	SetTimer(1000, 30, NULL);
 
 	return TRUE;  // 포커스를 컨트롤에 설정하지 않으면 TRUE를 반환합니다.
@@ -299,7 +287,7 @@ void CtestQDlg::OnDestroy()
 void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
-	 
+
 	// 캡쳐한 내용을 읽어서 mat_frame에 배열형태로 담음
 	capture->read(mat_frame);
 
@@ -355,10 +343,10 @@ void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 		cimage_mfc.ReleaseDC();
 		delete cimage_mfc;
 	}
-	
 
-	 cimage_mfc.Create(winSize.width, winSize.height, 24);
-	
+
+	cimage_mfc.Create(winSize.width, winSize.height, 24);
+
 	BITMAPINFO *bitInfo = (BITMAPINFO*)malloc(sizeof(BITMAPINFO) + 256 * sizeof(RGBQUAD));
 	bitInfo->bmiHeader.biBitCount = bpp;
 	bitInfo->bmiHeader.biWidth = mat_temp.cols;
@@ -445,6 +433,8 @@ void CtestQDlg::OnBnClickedOk()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CDialogEx::OnOK();
+
+
 }
 
 
@@ -460,25 +450,92 @@ void CtestQDlg::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
 
-	lpMMI->ptMinTrackSize.x = 1000;
-	lpMMI->ptMinTrackSize.y = 600;
+	lpMMI->ptMinTrackSize.x = WINDOW_WIDTH;
+	lpMMI->ptMinTrackSize.y = WINDOW_HEIGHT;
 
-	lpMMI->ptMaxTrackSize.x = 1000;
-	lpMMI->ptMaxTrackSize.y = 600;
+	lpMMI->ptMaxTrackSize.x = WINDOW_WIDTH;
+	lpMMI->ptMaxTrackSize.y = WINDOW_HEIGHT;
 	CDialogEx::OnGetMinMaxInfo(lpMMI);
 }
 
 UINT CtestQDlg::UpdateLog(LPVOID _mothod) {
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
-	while (1) {
-		pDlg->m_list.InsertItem(0, get_time().c_str());
-		pDlg->m_list.SetItemText(0, 1, L"MFC Thread Test");
-		pDlg->m_StatusBar.SetText(get_time().c_str(), 2, 0);
+
+	
+		//
+		// 테스트가 진행중이지 않을 경우
+		// 상태변수를 1로 바꾸고 테스트를 시작한다.
+
+		pDlg->g_cs_status.Lock();
+		pDlg->test_status = 1;
+		pDlg->g_cs_status.Unlock();
+
+		pDlg->m_list.InsertItem(0, L"테스트를 시작합니다");
+		pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+		pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+
+		//
+		// Some Test func...
+		//
+		Sleep(5000);
+
+
+		pDlg->m_list.InsertItem(0, L"테스트를 종료합니다");
+		pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+		pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+
+		pDlg->g_cs_status.Lock();
+		pDlg->test_status = 0;
+		pDlg->g_cs_status.Unlock();
+		
+		/*pDlg->m_list.InsertItem(0, L"MFC Thread Test");
+		pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+		pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);*/
 		Sleep(1000);
-	}
+
+		return 0;
 }
 
 void CtestQDlg::OnStnClickedBird()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+}
+
+
+void CtestQDlg::OnBnClickedBtnOff()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
+
+	pDlg->m_list.InsertItem(0, L"[IR] OFF button Clicked");
+	pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+	pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+}
+
+
+void CtestQDlg::OnBnClickedBtnOn()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
+
+	pDlg->m_list.InsertItem(0, L"[IR] On button Clicked");
+	pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+	pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+}
+
+
+void CtestQDlg::OnBnClickedStart()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
+
+	if (pDlg->test_status == 0) {
+		m_pThread = AfxBeginThread(UpdateLog, this);
+
+	}
+	else {
+		pDlg->m_list.InsertItem(0, L"이미 진행중입니다");
+		pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+		pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+	}
 }
