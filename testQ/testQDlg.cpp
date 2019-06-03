@@ -2,17 +2,17 @@
 // testQDlg.cpp: 구현 파일
 //
 
+#include <Windows.h>
 #include "stdafx.h"
 #include "testQ.h"
 #include "testQDlg.h"
 #include "afxdialogex.h"
+#include "uuirtdrv.h"
+#include "conio.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
-
-
 
 // 응용 프로그램 정보에 사용되는 CAboutDlg 대화 상자입니다.
 class CAboutDlg : public CDialogEx
@@ -82,6 +82,9 @@ BEGIN_MESSAGE_MAP(CtestQDlg, CDialogEx)
 	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LIST1, &CtestQDlg::OnLvnItemchangedList1)
 	ON_WM_GETMINMAXINFO()
 	ON_STN_CLICKED(IDC_BIRD, &CtestQDlg::OnStnClickedBird)
+	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LOG, &CtestQDlg::OnLvnItemchangedLog)
+	ON_BN_CLICKED(IDC_BTN_ON, &CtestQDlg::OnBnClickedBtnOn)
+	ON_BN_CLICKED(IDC_BTN_OFF, &CtestQDlg::OnBnClickedBtnOff)
 END_MESSAGE_MAP()
 
 
@@ -223,7 +226,7 @@ BOOL CtestQDlg::OnInitDialog()
 		m_picture_width,
 		m_picture_height);
 
-	capture = new VideoCapture(1);
+	capture = new VideoCapture(0);
 	if (!capture->isOpened()) {
 		MessageBox(_T("캠을 열 수 없습니다 \n"));
 	}
@@ -233,6 +236,69 @@ BOOL CtestQDlg::OnInitDialog()
 	capture->set(CAP_PROP_FRAME_HEIGHT, 500);
 	
 	SetTimer(1000, 30, NULL);
+
+	//
+	//
+	// IR BLASTER 컨트롤 설정 초기화
+
+	if (!loadDLL())
+	{
+		MessageBox(_T("uuirtdrv.dll을 로드할 수 없습니다. \n"));
+		Sleep(1000);
+		//return 0;
+	}
+
+	if (!fn_UUIRTGetDrvInfo(&drvVersion))
+	{
+		MessageBox(_T("uirtdrv.dll의 버전 검색할 수 없습니다. \n"));
+		Sleep(1000);
+		unLoadDLL();
+		//return 0;
+	}
+
+	if (drvVersion != 0x0100)
+	{
+		MessageBox(_T("uirtdrv.dll 버전이 맞지 않습니다. \n"));
+		Sleep(1000);
+		unLoadDLL();
+		//return 0;
+	}
+
+	hDrvHandle = fnUUIRTOpen();
+	if (hDrvHandle == INVALID_HANDLE_VALUE)
+	{
+		DWORD err;
+
+		err = GetLastError();
+
+		if (err == UUIRTDRV_ERR_NO_DLL)
+		{
+			MessageBox(_T("USB-UIRT 드라이버를 찾을 수 없습니다. 드라이버를 설치하세요. \n"));
+		}
+		else if (err == UUIRTDRV_ERR_NO_DEVICE)
+		{
+			MessageBox(_T("USB-UIRT 디바이스를 연결할 수 없습니다. PC에 장비 연결을 확인하세요. \n"));
+		}
+		else if (err == UUIRTDRV_ERR_NO_RESP)
+		{
+			MessageBox(_T("USB-UIRT 장비에 연결되지 않았습니다. 연결을 다시 한번 확인하세요. \n"));
+		}
+		else if (err == UUIRTDRV_ERR_VERSION)
+		{
+			MessageBox(_T("USB-UIRT의 펌웨어가 API DLL과 호환되지 않습니다. 최신 버전의 API DLL을 확인하세요. \n"));
+		}
+		else
+		{
+			MessageBox(_T("USB-UIRT 초기화가 불가합니다.(알려지지 않은 에러) \n"));
+		}
+
+		unLoadDLL();
+
+		//return 0;
+	}
+
+	// Register a callback function for IR receive...
+	// fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
 
 	return TRUE;  // 포커스를 컨트롤에 설정하지 않으면 TRUE를 반환합니다.
 }
@@ -481,4 +547,42 @@ UINT CtestQDlg::UpdateLog(LPVOID _mothod) {
 void CtestQDlg::OnStnClickedBird()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+}
+
+
+void CtestQDlg::OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	*pResult = 0;
+}
+
+
+void CtestQDlg::OnBnClickedBtnOn()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	if (IRReceiveCallbackRegYn == 0) {
+		// 원할한 테스트를 위해 DLL API를 활용한 callback은 태그로 확인하여 등록
+		fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
+	}
+
+
+	char	gIRCode[2048] =
+		"0000 006C 0022 0002 0155 00A9 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0602 0155 0056 0015 0E4A";
+	m_list.SetItemText(0, 1, L"IR Blaster로 Power On Code를 송신합니다.");
+	IRSend(gIRCode);
+}
+
+
+void CtestQDlg::OnBnClickedBtnOff()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	if (IRReceiveCallbackRegYn == 0) {
+		// 원할한 테스트를 위해 DLL API를 활용한 callback은 태그로 확인하여 등록
+		fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
+	}
+	char	gIRCode[2048] =
+		"0000 006C 0022 0002 0155 00A9 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0602 0155 0056 0015 0E4A";
+	m_list.SetItemText(0, 1, L"IR Blaster로 Power Off Code를 송신합니다.");
+	IRSend(gIRCode);
 }
