@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\opencl\perf_brute_force_matcher.cpp">
+      <Filter>opencv_features2d\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\opencl\perf_feature2d.cpp">
+      <Filter>opencv_features2d\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\perf_batchDistance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\perf_feature2d.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\perf_main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\perf_feature2d.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\perf\perf_precomp.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{DA9AE0CE-AAEF-3670-B987-E19E77FA9D01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{26738960-0232-3CAB-9A44-44DC5779C213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{AB95A514-6F5A-3180-AD49-FFC0CD5FBA84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl">
+      <UniqueIdentifier>{410E9B2D-30B0-3AE1-9A35-71004813C63D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

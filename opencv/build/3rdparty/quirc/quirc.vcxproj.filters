@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\src\decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\src\quirc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\src\version_db.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\include\quirc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\include\quirc_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\3rdparty\quirc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F7FF47E7-D0AF-30A5-878C-C9C46710C577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48CE403C-5BBD-3179-8B58-F4F99FB13CC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

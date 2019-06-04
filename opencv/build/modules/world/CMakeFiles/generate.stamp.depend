@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/git/miwoosae-c/opencv/sources/cmake/templates/vs_version.rc.in
+C:/git/miwoosae-c/opencv/sources/modules/calib3d/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/core/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/dnn/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/features2d/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/flann/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/gapi/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/highgui/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/imgcodecs/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/imgproc/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/ml/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/objdetect/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/photo/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/stitching/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/video/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/videoio/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/plugin.cmake
+C:/git/miwoosae-c/opencv/sources/modules/world/CMakeLists.txt

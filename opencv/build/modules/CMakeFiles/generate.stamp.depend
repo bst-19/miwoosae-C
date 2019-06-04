@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPkgConfig.cmake
+C:/git/miwoosae-c/opencv/build/3rdparty/ffmpeg/ffmpeg_version.cmake
+C:/git/miwoosae-c/opencv/sources/3rdparty/ffmpeg/ffmpeg.cmake
+C:/git/miwoosae-c/opencv/sources/modules/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/gapi/cmake/DownloadADE.cmake
+C:/git/miwoosae-c/opencv/sources/modules/gapi/cmake/init.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/detect_dc1394.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/detect_dshow.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/detect_ffmpeg.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/detect_gstreamer.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/detect_msmf.cmake
+C:/git/miwoosae-c/opencv/sources/modules/videoio/cmake/init.cmake

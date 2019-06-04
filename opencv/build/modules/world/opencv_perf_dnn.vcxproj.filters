@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_caffe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_convolution.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_net.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_common.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_common.impl.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\perf\perf_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{82E0A980-F022-3290-B49B-486F319724FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{9722E5AA-A2D4-3DBF-892E-F6B22193C45E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_common">
+      <UniqueIdentifier>{94A09DF7-0A86-3AB4-92F6-878DD2FF36A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,94 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckFortranFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindJNI.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/ProcessorCount.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.14/Templates/CPackConfig.cmake.in
+C:/git/miwoosae-c/opencv/build/CMakeFiles/3.14.5/CMakeCCompiler.cmake
+C:/git/miwoosae-c/opencv/build/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake
+C:/git/miwoosae-c/opencv/build/CMakeFiles/3.14.5/CMakeRCCompiler.cmake
+C:/git/miwoosae-c/opencv/build/CMakeFiles/3.14.5/CMakeSystem.cmake
+C:/git/miwoosae-c/opencv/sources/3rdparty/ippicv/ippicv.cmake
+C:/git/miwoosae-c/opencv/sources/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVCRTLinkage.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVCompilerOptimizations.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVCompilerOptions.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectApacheAnt.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectCXXCompiler.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectDirectX.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectOpenCL.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectPython.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectTrace.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDetectVTK.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVDownload.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVExtraTargets.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindFrameworks.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindIPP.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindIPPIW.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindLAPACK.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindLibsGUI.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindLibsGrfmt.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindLibsPerf.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindLibsVideo.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindMKL.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindOpenBLAS.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVFindProtobuf.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVGenABI.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVGenAndroidMK.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVGenConfig.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVGenHeaders.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVGenSetupVars.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVMinDepVersions.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVModule.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVPCHSupport.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVPackaging.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVUtils.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/OpenCVVersion.cmake
+C:/git/miwoosae-c/opencv/sources/cmake/checks/directx.cpp
+C:/git/miwoosae-c/opencv/sources/cmake/checks/opencl.cpp
+C:/git/miwoosae-c/opencv/sources/cmake/checks/win32uitest.cpp
+C:/git/miwoosae-c/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/OpenCVConfig.cmake.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/cmake_uninstall.cmake.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/custom_hal.hpp.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/cv_cpu_config.h.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/cvconfig.h.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/opencv_modules.hpp.in
+C:/git/miwoosae-c/opencv/sources/cmake/templates/setup_vars_win32.cmd.in
+C:/git/miwoosae-c/opencv/sources/modules/core/include/opencv2/core/version.hpp

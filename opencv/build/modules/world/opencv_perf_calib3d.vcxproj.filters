@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\opencl\perf_stereobm.cpp">
+      <Filter>opencv_calib3d\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_affine2d.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_cicrlesGrid.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_main.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_pnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_stereosgbm.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\perf\perf_precomp.hpp">
+      <Filter>opencv_calib3d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_calib3d">
+      <UniqueIdentifier>{FD92F013-AD02-330C-8942-6D8792C66181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include">
+      <UniqueIdentifier>{5AEF6AC0-45CF-389C-9B70-0FFE84E50053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src">
+      <UniqueIdentifier>{5FF3398E-6CCE-3400-B109-0FB51D04A725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl">
+      <UniqueIdentifier>{EB9367D3-ABBB-30A4-BD99-F9E21B426EE7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\arithm.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\imgwarp.sse4_1.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\resize.sse4_1.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\accum.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\box_filter.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\filter.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\color_hsv.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\color_rgb.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\color_yuv.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\median_blur.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\morph.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\smooth.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\backends\fluid\gfluidimgproc_func.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48CE403C-5BBD-3179-8B58-F4F99FB13CC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{EE4D6073-C0EE-3C4F-A327-9C9B132B1389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{3A010E87-ABF4-3338-97E5-F220B10C5125}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

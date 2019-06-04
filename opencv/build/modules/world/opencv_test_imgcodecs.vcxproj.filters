@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_grfmt.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_jpeg.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_main.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_png.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_read_write.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_tiff.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_webp.cpp">
+      <Filter>opencv_imgcodecs\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\test\test_precomp.hpp">
+      <Filter>opencv_imgcodecs\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_imgcodecs">
+      <UniqueIdentifier>{CE50E51D-7F3C-384D-8897-B6ABDFD0BD76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgcodecs\Include">
+      <UniqueIdentifier>{3F425512-EB71-3FFF-B62B-37E361660DDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgcodecs\Src">
+      <UniqueIdentifier>{A320021F-79D7-3108-BB7F-7D681F0CC3B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

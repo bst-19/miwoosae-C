@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_emknearestkmeans.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_gbttest.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_lr.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_main.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_mltests.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_mltests2.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_save_load.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_svmsgd.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_svmtrainauto.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\test\test_precomp.hpp">
+      <Filter>opencv_ml\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_ml">
+      <UniqueIdentifier>{1707680B-F8EC-3642-9F77-5A07D81FC998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include">
+      <UniqueIdentifier>{2F441B6E-0B6A-3B82-A7F6-4528A8E60C3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Src">
+      <UniqueIdentifier>{6A30961F-F254-3F20-92FB-FC85F6AE2F68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

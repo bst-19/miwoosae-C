@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/git/miwoosae-c/opencv/sources/modules/python/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/python/package/template/config.py.in
+C:/git/miwoosae-c/opencv/sources/modules/python/python_loader.cmake

@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85AD9A27-3AD8-3C9E-903F-35BCC4762752}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\miwoosae-c\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\git\miwoosae-c\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\git\miwoosae-c\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\git\miwoosae-c\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;C:\git\miwoosae-c\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;C:\git\miwoosae-c\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/git/miwoosae-c/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/miwoosae-c/opencv/sources -BC:/git/miwoosae-c/opencv/build --check-stamp-file C:/git/miwoosae-c/opencv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeCCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeSystem.cmake;C:\git\miwoosae-c\opencv\sources\3rdparty\ippicv\ippicv.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCRTLinkage.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCompilerOptions.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectDirectX.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectPython.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectTrace.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectVTK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDownload.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVExtraTargets.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindFrameworks.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindIPP.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindIPPIW.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLAPACK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindMKL.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindProtobuf.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenABI.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenConfig.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenHeaders.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenSetupVars.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVMinDepVersions.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVModule.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVPCHSupport.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVPackaging.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVUtils.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVVersion.cmake;C:\git\miwoosae-c\opencv\sources\cmake\checks\directx.cpp;C:\git\miwoosae-c\opencv\sources\cmake\checks\opencl.cpp;C:\git\miwoosae-c\opencv\sources\cmake\checks\win32uitest.cpp;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\custom_hal.hpp.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cv_cpu_config.h.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cvconfig.h.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\opencv_modules.hpp.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\git\miwoosae-c\opencv\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/git/miwoosae-c/opencv/sources/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/git/miwoosae-c/opencv/sources -BC:/git/miwoosae-c/opencv/build --check-stamp-file C:/git/miwoosae-c/opencv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ProcessorCount.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.14\Templates\CPackConfig.cmake.in;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeCCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;C:\git\miwoosae-c\opencv\build\CMakeFiles\3.14.5\CMakeSystem.cmake;C:\git\miwoosae-c\opencv\sources\3rdparty\ippicv\ippicv.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCRTLinkage.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCompilerOptimizations.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVCompilerOptions.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectApacheAnt.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectCXXCompiler.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectDirectX.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectOpenCL.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectPython.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectTrace.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDetectVTK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVDownload.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVExtraTargets.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindFrameworks.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindIPP.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindIPPIW.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLAPACK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsGUI.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsGrfmt.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsPerf.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindLibsVideo.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindMKL.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindOpenBLAS.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVFindProtobuf.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenABI.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenAndroidMK.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenConfig.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenHeaders.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVGenSetupVars.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVMinDepVersions.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVModule.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVPCHSupport.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVPackaging.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVUtils.cmake;C:\git\miwoosae-c\opencv\sources\cmake\OpenCVVersion.cmake;C:\git\miwoosae-c\opencv\sources\cmake\checks\directx.cpp;C:\git\miwoosae-c\opencv\sources\cmake\checks\opencl.cpp;C:\git\miwoosae-c\opencv\sources\cmake\checks\win32uitest.cpp;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig-version.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cmake_uninstall.cmake.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\custom_hal.hpp.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cv_cpu_config.h.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\cvconfig.h.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\opencv_modules.hpp.in;C:\git\miwoosae-c\opencv\sources\cmake\templates\setup_vars_win32.cmd.in;C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\version.hpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\git\miwoosae-c\opencv\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{9E643C7E-6146-3DBC-8D04-8A6D14976DD9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{B5F7B687-2890-3E48-9E1C-9D5C1CF59E44}</Project>
+      <Name>IlmImf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\ade.vcxproj">
+      <Project>{8D1B8380-6D24-3814-8CBB-A8E41C23759F}</Project>
+      <Name>ade</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{D3A7D1CA-D2E4-3639-9DFF-B69BCB5050CC}</Project>
+      <Name>ippiw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\ittnotify\ittnotify.vcxproj">
+      <Project>{A5F4BD3A-B010-33C9-930E-A5B46575B682}</Project>
+      <Name>ittnotify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\libjasper\libjasper.vcxproj">
+      <Project>{E4009CDC-2C11-3461-9E17-E2ADC30C5B80}</Project>
+      <Name>libjasper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{26DE03DE-5551-3167-99D9-23924F1EE5A6}</Project>
+      <Name>libjpeg-turbo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\libpng\libpng.vcxproj">
+      <Project>{D5DAB3BE-7E65-3591-BAEE-4C3DBD0A1AF0}</Project>
+      <Name>libpng</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\protobuf\libprotobuf.vcxproj">
+      <Project>{64783A8B-11C8-3D1F-8453-E8D141723475}</Project>
+      <Name>libprotobuf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{A926585C-A538-30FD-9628-8631D43E0B34}</Project>
+      <Name>libtiff</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{B619AFFC-7F78-3A36-87E2-66561A7DAFBF}</Project>
+      <Name>libwebp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{CE2F6332-350F-3115-85DC-D57DF27F1E2B}</Project>
+      <Name>opencv_annotation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{9A58A0C7-1012-3090-B916-4BE489B37B2F}</Project>
+      <Name>opencv_interactive-calibration</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_calib3d.vcxproj">
+      <Project>{B211E65D-DD86-36D7-9CD4-0DC733EA64AD}</Project>
+      <Name>opencv_perf_calib3d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_core.vcxproj">
+      <Project>{BD856FA5-E925-39ED-9173-593DC8B7F9C2}</Project>
+      <Name>opencv_perf_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_dnn.vcxproj">
+      <Project>{96807F8E-FB00-3F9D-9743-CFF40A1D63D3}</Project>
+      <Name>opencv_perf_dnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_features2d.vcxproj">
+      <Project>{90E56D1F-F4AB-3181-A858-40FAFDAB4416}</Project>
+      <Name>opencv_perf_features2d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_gapi.vcxproj">
+      <Project>{C8E7BCDB-4474-3F5B-B27E-72FB6816A966}</Project>
+      <Name>opencv_perf_gapi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_imgcodecs.vcxproj">
+      <Project>{F84584EF-3E7B-3446-83B3-DCE74024CB38}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_imgproc.vcxproj">
+      <Project>{201E83F1-5647-3906-B794-046D978DC00E}</Project>
+      <Name>opencv_perf_imgproc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_objdetect.vcxproj">
+      <Project>{CC78B83C-7607-399C-8C88-136A576AD046}</Project>
+      <Name>opencv_perf_objdetect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_photo.vcxproj">
+      <Project>{BB0388A5-21B6-3016-AE95-40A6C4B66088}</Project>
+      <Name>opencv_perf_photo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_stitching.vcxproj">
+      <Project>{BEA50BAB-72DF-31C1-A96E-1DC64C13A8C1}</Project>
+      <Name>opencv_perf_stitching</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_video.vcxproj">
+      <Project>{593681CF-B11A-3BE8-9022-84386FD477DC}</Project>
+      <Name>opencv_perf_video</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_perf_videoio.vcxproj">
+      <Project>{DE88CAF5-A531-3F8C-950E-C9FE723CA5D2}</Project>
+      <Name>opencv_perf_videoio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_calib3d.vcxproj">
+      <Project>{28824B9A-AFE8-3CAA-8828-6C0EB0D14288}</Project>
+      <Name>opencv_test_calib3d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_core.vcxproj">
+      <Project>{1A25AD75-7AD2-3AF1-B2B1-24B5B85686A8}</Project>
+      <Name>opencv_test_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_core_AVX.vcxproj">
+      <Project>{7E3191DC-2052-3882-AC6F-A4D9E6CCAB4C}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_core_FP16.vcxproj">
+      <Project>{427CE2C4-3929-363C-86C9-2974BBA3588A}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{05581449-C441-320C-B743-683CDE06E23C}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{05BFF5C6-6751-384D-BEE7-95537E6360AA}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_dnn.vcxproj">
+      <Project>{75414A5F-92DE-3176-BE48-FA4251C3BC03}</Project>
+      <Name>opencv_test_dnn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_features2d.vcxproj">
+      <Project>{7DBC728B-641E-3905-BA76-C3DAB605E0CA}</Project>
+      <Name>opencv_test_features2d</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_flann.vcxproj">
+      <Project>{DDCD3A40-8394-36C0-B08F-63E31B4533AD}</Project>
+      <Name>opencv_test_flann</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_gapi.vcxproj">
+      <Project>{7D27726B-2A3B-3733-8098-2B6B878AA447}</Project>
+      <Name>opencv_test_gapi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_highgui.vcxproj">
+      <Project>{69E32232-21BE-3631-A658-35B8A2937CE8}</Project>
+      <Name>opencv_test_highgui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_imgcodecs.vcxproj">
+      <Project>{92DE5223-D2AF-3511-95C9-676DF777A1F1}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_imgproc.vcxproj">
+      <Project>{139F84C4-711E-337A-8774-D3445EB87CD2}</Project>
+      <Name>opencv_test_imgproc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_ml.vcxproj">
+      <Project>{CE7937E0-F599-3DDF-9C92-CFCA45E9C699}</Project>
+      <Name>opencv_test_ml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_objdetect.vcxproj">
+      <Project>{6194E56D-9B1D-38D2-908C-BF2E226941D7}</Project>
+      <Name>opencv_test_objdetect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_photo.vcxproj">
+      <Project>{8125BB8D-1166-3276-9ACC-429791434340}</Project>
+      <Name>opencv_test_photo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_stitching.vcxproj">
+      <Project>{7DF8B691-7064-3A32-8276-C1E360490397}</Project>
+      <Name>opencv_test_stitching</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_video.vcxproj">
+      <Project>{A850DBD2-C431-3D05-9B6B-F58A2FC1FCAF}</Project>
+      <Name>opencv_test_video</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_test_videoio.vcxproj">
+      <Project>{CD0EF8D1-253E-3CCC-A2FD-4860625296DE}</Project>
+      <Name>opencv_test_videoio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{AB7BD1ED-A359-36E3-80C8-2F6345719762}</Project>
+      <Name>opencv_ts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\apps\version\opencv_version.vcxproj">
+      <Project>{AF8F3E91-DF95-345E-AB86-F470E1BBFD9E}</Project>
+      <Name>opencv_version</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\apps\version\opencv_version_win32.vcxproj">
+      <Project>{B7B635C1-864A-38DD-95D5-94D5DF2B4A8D}</Project>
+      <Name>opencv_version_win32</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{1A3DBD6F-835A-3C18-8D76-F611E4A83C23}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{E4D3DB07-C667-3F71-B09E-C721C9DE2AAD}</Project>
+      <Name>opencv_visualisation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world.vcxproj">
+      <Project>{0352DBD0-D8C8-3AF8-9E4F-413F6B23BCF4}</Project>
+      <Name>opencv_world</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{97024610-ED34-3B6D-B34D-C03F8EB29162}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{A164F049-A5D7-3DC8-A2B6-39BFD750DCA0}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{022DC5D9-CED7-3477-813F-A996DFA6D3F0}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\quirc\quirc.vcxproj">
+      <Project>{FBC516C8-3BFA-33CE-A8E0-86394A5480DC}</Project>
+      <Name>quirc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\git\miwoosae-c\opencv\build\3rdparty\zlib\zlib.vcxproj">
+      <Project>{E01FAD07-372E-3AB8-9288-10239E65AD7B}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\test\opencl\test_hogdetector.cpp">
+      <Filter>opencv_objdetect\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\test\test_cascadeandhog.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\test\test_main.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\test\test_qrcode.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\test\test_precomp.hpp">
+      <Filter>opencv_objdetect\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_objdetect">
+      <UniqueIdentifier>{155A7A95-63B0-39B9-901F-EC4A5D0CD211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include">
+      <UniqueIdentifier>{46130DC5-B0BD-3106-9293-AF6457D2F4B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src">
+      <UniqueIdentifier>{277585FE-B310-3AC9-9397-EC3E774A3C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl">
+      <UniqueIdentifier>{908CEB33-90FC-38AF-BA7A-E60D1599495F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

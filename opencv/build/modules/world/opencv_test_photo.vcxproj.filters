@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\ocl\test_denoising.cpp">
+      <Filter>opencv_photo\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_cloning.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_decolor.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_denoise_tvl1.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_denoising.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_denoising.cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_hdr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_main.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_npr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\test\test_precomp.hpp">
+      <Filter>opencv_photo\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{436D5DE3-CAD6-3428-86E6-5137F3593785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{D700DB12-7A4C-33BA-8333-B1BC81869921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{EC2BAF10-FAFB-3E6C-8AB2-54BAA582EADC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\ocl">
+      <UniqueIdentifier>{9ED4D23E-23E4-354D-910C-C54FE0F58BA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

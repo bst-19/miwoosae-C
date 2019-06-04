@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\ocl\test_bgfg_mog2.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\ocl\test_dis.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\ocl\test_optflow_farneback.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\ocl\test_optflowpyrlk.cpp">
+      <Filter>opencv_video\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_OF_accuracy.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_OF_reproducibility.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_accum.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_camshift.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_ecc.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_estimaterigid.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_kalman.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_main.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_optflowpyrlk.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\test\test_precomp.hpp">
+      <Filter>opencv_video\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{03DDCF2F-C321-3AC1-B1B0-40C6C1946321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{A2AED392-317C-3FD7-B0C3-8265D37C58EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{50B62449-49B8-3507-817E-829C7894FD97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\ocl">
+      <UniqueIdentifier>{7E4A80B8-ADB8-3BFB-8D96-36C9E6E78D0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

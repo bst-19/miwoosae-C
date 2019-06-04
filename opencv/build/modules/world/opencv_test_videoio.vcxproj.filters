@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_camera.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_container_avi.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_dynamic.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_ffmpeg.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_gstreamer.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_main.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_mfx.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_video_io.cpp">
+      <Filter>opencv_videoio\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\test\test_precomp.hpp">
+      <Filter>opencv_videoio\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_videoio">
+      <UniqueIdentifier>{4DB248F5-2BAD-31D3-A370-6804BC673B10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videoio\Include">
+      <UniqueIdentifier>{03EF3F15-2781-3011-8224-52A50D443A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videoio\Src">
+      <UniqueIdentifier>{EDD63FF7-36C2-3302-A52C-B963D2FC1E4B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

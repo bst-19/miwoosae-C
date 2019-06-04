@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_3vs4.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_accumulate.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_blend.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_color.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_filters.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_gftt.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_houghlines.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_imgproc.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_imgwarp.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_matchTemplate.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_moments.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\opencl\perf_pyramid.cpp">
+      <Filter>opencv_imgproc\Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_accumulate.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_bilateral.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_blur.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_canny.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_contours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_corners.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_cvt_color.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_distanceTransform.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_filter2d.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_floodfill.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_goodFeaturesToTrack.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_histogram.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_houghcircles.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_houghlines.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_integral.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_main.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_matchTemplate.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_moments.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_morph.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_phasecorr.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_pyramids.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_remap.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_resize.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_sepfilters.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_spatialgradient.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_threshold.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_warp.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\perf\perf_precomp.hpp">
+      <Filter>opencv_imgproc\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{EE4D6073-C0EE-3C4F-A327-9C9B132B1389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include">
+      <UniqueIdentifier>{30876645-2795-3D6F-AD65-2A245DA5ED9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{3A010E87-ABF4-3338-97E5-F220B10C5125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl">
+      <UniqueIdentifier>{B6C14444-4C15-35D8-9B71-E5D647AC9F24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\algorithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\alloc.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\arithm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\arithm.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\array.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\batch_distance.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\bindings_utils.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\channels.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\check.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\command_line_parser.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\conjugate_gradient.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert_scale.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\copy.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\count_non_zero.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\cuda_gpu_mat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\cuda_host_mem.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\cuda_info.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\cuda_stream.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\datastructs.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\directx.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\downhill_simplex.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\dxt.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\gl_core_3_1.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\glob.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\hal_internal.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\kmeans.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\lapack.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\lda.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\logger.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\lpsolver.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\lut.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mathfuncs.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mathfuncs_core.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matmul.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_decomp.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_expressions.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_iterator.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_operations.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_sparse.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matrix_wrap.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mean.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\merge.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\minmax.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\norm.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\ocl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\opencl_clamdblas.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\opencl_clamdfft.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\opencl_core.cpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opengl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\out.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\ovx.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\parallel.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\parallel_impl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\pca.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence_json.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence_types.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence_xml.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence_yml.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\rand.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\softfloat.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\split.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\stat.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\stat_c.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\stl.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\sum.dispatch.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\system.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\tables.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\trace.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\types.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\umatrix.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\utils\datafile.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\utils\filesystem.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\utils\samples.cpp">
+      <Filter>opencv_core\Src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\va_intel.cpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_core.cpp">
+      <Filter>opencv_core\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\flann\src\flann.cpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\flann\src\miniflann.cpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\accum.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\accum.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\approx.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\bilateral_filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\blend.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\box_filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\canny.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\clahe.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_hsv.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_lab.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_rgb.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_yuv.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\colormap.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\connectedcomponents.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\contours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\convhull.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\corner.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\cornersubpix.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\demosaicing.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\deriv.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\distransform.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\drawing.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\emd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\featureselect.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\filter.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\floodfill.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\gabor.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\generalized_hough.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\geometry.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\grabcut.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\hershey_fonts.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\histogram.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\hough.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\imgwarp.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\intersection.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\linefit.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\lsd.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\main.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\matchcontours.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\median_blur.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\min_enclosing_triangle.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\moments.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\morph.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\phasecorr.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\pyramids.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\resize.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\rotcalipers.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\samplers.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\segmentation.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\shapedescr.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\smooth.dispatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\spatialgradient.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\subdivision2d.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\sumpixels.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\tables.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\templmatch.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\thresh.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\utils.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_imgproc.cpp">
+      <Filter>opencv_imgproc\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\ann_mlp.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\boost.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\data.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\em.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\gbt.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\inner_functions.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\kdtree.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\knearest.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\lr.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\nbayes.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\rtrees.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\svm.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\svmsgd.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\testset.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\tree.cpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\align.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\calibrate.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\contrast_preserve.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\denoise_tvl1.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\denoising.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\denoising.cuda.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\hdr_common.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\inpaint.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\merge.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\npr.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\seamless_cloning.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\seamless_cloning_impl.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\tonemap.cpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_photo.cpp">
+      <Filter>opencv_photo\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\caffe\opencv-caffe.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\onnx\opencv-onnx.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\attr_value.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\function.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\op_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\tensor.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\tensor_shape.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\types.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\misc\tensorflow\versions.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\caffe\caffe_importer.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\caffe\caffe_io.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\caffe\caffe_shrinker.cpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\darknet\darknet_importer.cpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\darknet\darknet_io.cpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\dnn.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\halide_scheduler.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\init.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\batch_norm_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\blank_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\concat_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\const_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\convolution_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\crop_and_resize_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\crop_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\detection_output_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\elementwise_layers.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\eltwise_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\flatten_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\fully_connected_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\layers_common.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\lrn_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\max_unpooling_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\mvn_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\normalize_bbox_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\padding_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\permute_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\pooling_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\prior_box_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\proposal_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\recurrent_layers.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\region_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\reorg_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\reshape_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\resize_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\scale_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\shuffle_channel_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\slice_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\softmax_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\split_layer.cpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\nms.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\common.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\math_functions.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_conv_spatial.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_inner_product.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_lrn.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_pool.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\src\ocl4dnn_softmax.cpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\onnx\onnx_importer.cpp">
+      <Filter>opencv_dnn\Src\onnx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_halide.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_inf_engine.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_vkcom.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\tensorflow\tf_graph_simplifier.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\tensorflow\tf_importer.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\tensorflow\tf_io.cpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THDiskFile.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THFile.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THGeneral.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\torch_importer.cpp">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\avg_pool_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\concat_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\conv48_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\conv_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\dw_conv_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\lrn_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\max_pool_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\permute_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\prior_box_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\relu_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\softmax_spv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\buffer.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\context.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\internal.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_base.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_concat.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_conv.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_lrn.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_permute.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_pool.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_prior_box.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_relu.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\op_softmax.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\tensor.cpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_functions.cpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_loader.cpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_dnn.cpp">
+      <Filter>opencv_dnn\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gapi_priv.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gmat.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\garray.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gscalar.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gproto.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gnode.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gcall.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\gcomputation.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\operators.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\kernels_core.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\api\kernels_imgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\gmodel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\gmodelbuilder.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\gislandmodel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\gcompiler.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\gcompiled.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\helpers.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\dump_dot.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\islands.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\meta.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\kernels.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\compiler\passes\exec.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\executor\gexecutor.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\cpu\gcpubackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\cpu\gcpukernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\cpu\gcpuimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\cpu\gcpucore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\fluid\gfluidbuffer.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\fluid\gfluidbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\fluid\gfluidimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\fluid\gfluidimgproc_func.dispatch.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\fluid\gfluidcore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\ocl\goclbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\ocl\goclkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\ocl\goclimgproc.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\ocl\goclcore.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\common\gcompoundbackend.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\src\backends\common\gcompoundkernel.cpp">
+      <Filter>opencv_gapi\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\loadsave.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\utils.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_base.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_exr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_gdcm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pam.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pfm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_png.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_webp.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\bitstrm.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\rgbe.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\exif.cpp">
+      <Filter>Src\grfmts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\videoio_registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\videoio_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_images.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_mjpeg_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_mjpeg_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\backend_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\backend_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\container_avi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_dshow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_msmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_ffmpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\src\window.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\src\roiSelector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\src\window_w32.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\agast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\agast_score.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\akaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\bagofwords.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\blobdetector.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\brisk.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\draw.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\dynamic.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\evaluation.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\fast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\fast_score.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\feature2d.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\gftt.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\AKAZEFeatures.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\KAZEFeatures.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\fed.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\nldiffusion_functions.cpp">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\keypoint.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\matchers.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\mser.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\orb.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_features2d.cpp">
+      <Filter>opencv_features2d\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\ap3p.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\calibinit.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\calibration.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\calibration_handeye.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\chessboard.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\compat_ptsetreg.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\dls.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\epnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\fisheye.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\five-point.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\fundam.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\homography_decomp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\levmarq.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\main.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\p3p.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\polynom_solver.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\posit.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\ptsetreg.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\rho.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\solvepnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\stereobm.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\triangulate.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\undistort.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\upnp.cpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_calib3d.cpp">
+      <Filter>opencv_calib3d\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\cascadedetect.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\cascadedetect_convert.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\detection_based_tracker.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\hog.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\main.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\qrcode.cpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_objdetect.cpp">
+      <Filter>opencv_objdetect\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\autocalib.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\blenders.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\camera.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\exposure_compensate.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\matchers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\motion_estimators.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\seam_finders.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\stitcher.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\timelapsers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\util.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\warpers.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\warpers_cuda.cpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_stitching.cpp">
+      <Filter>opencv_stitching\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\bgfg_KNN.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\bgfg_gaussmix2.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\camshift.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\dis_flow.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\ecc.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\kalman.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\lkpyramid.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\optflowgf.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\optical_flow_io.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\variational_refinement.cpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_video.cpp">
+      <Filter>opencv_video\Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\world\src\world_init.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\ocl_defs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\opencl_info.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\opencl_svm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_clamdblas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_clamdfft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_core_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_gl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\autogenerated\opencl_gl_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_clamdblas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_clamdfft.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_core_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_gl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_gl_wrappers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_svm_20.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_svm_definitions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opencl\runtime\opencl_svm_hsa_extension.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\block.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\border_interpolate.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\color.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\common.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\datamov_utils.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\dynamic_smem.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\emulation.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\filters.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\funcattrib.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\functional.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\limits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\reduce.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\saturate_cast.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\scan.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\simd_functions.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\transform.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\type_traits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\utility.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\vec_distance.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\vec_math.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\vec_traits.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\warp.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\warp_reduce.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\warp_shuffle.hpp">
+      <Filter>Include\Cuda Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\color_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\reduce.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\reduce_key_val.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\transform_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\type_traits_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda\detail\vec_distance_detail.hpp">
+      <Filter>Include\Cuda Headers\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core.hpp">
+      <Filter>opencv_core\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\affine.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\base.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\bindings_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\bufferpool.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\check.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\core.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\core_c.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda_stream_accessor.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cuda_types.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cv_cpu_dispatch.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cv_cpu_helper.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cvdef.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cvstd.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cvstd.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\cvstd_wrapper.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\directx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\eigen.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\fast_math.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\hal.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\interface.h">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_avx.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_cpp.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_forward.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_neon.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_sse.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_sse_em.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\hal\intrin_vsx.hpp">
+      <Filter>opencv_core\Include\opencv2\core\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\mat.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\mat.inl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\matx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\neon_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\ocl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\ocl_genbase.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\opengl.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\operations.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\optim.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\ovx.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\persistence.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\private.cuda.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\private.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\saturate.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\softfloat.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\sse_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\traits.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\types.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\types_c.h">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utility.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\configuration.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\filesystem.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\filesystem.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\lock.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\logger.defines.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\logger.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\trace.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\utils\trace.private.hpp">
+      <Filter>opencv_core\Include\opencv2\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\va_intel.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\version.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\include\opencv2\core\vsx_utils.hpp">
+      <Filter>opencv_core\Include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann.hpp">
+      <Filter>opencv_flann\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\all_indices.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\allocator.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\any.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\autotuned_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\composite_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\config.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\defines.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\dist.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\dummy.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\dynamic_bitset.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\flann.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\flann_base.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\general.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\ground_truth.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\heap.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\hierarchical_clustering_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\index_testing.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\kdtree_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\kdtree_single_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\kmeans_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\linear_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\logger.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\lsh_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\lsh_table.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\matrix.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\miniflann.hpp">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\nn_index.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\object_factory.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\params.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\random.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\result_set.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\sampling.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\saving.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\simplex_downhill.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\include\opencv2\flann\timer.h">
+      <Filter>opencv_flann\Include\opencv2\flann</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc.hpp">
+      <Filter>opencv_imgproc\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\hal\hal.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\hal\interface.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\imgproc.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\imgproc_c.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\types_c.h">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\include\opencv2\imgproc\detail\gcgraph.hpp">
+      <Filter>opencv_imgproc\Include\opencv2\imgproc\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\include\opencv2\ml.hpp">
+      <Filter>opencv_ml\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\include\opencv2\ml\ml.hpp">
+      <Filter>opencv_ml\Include\opencv2\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\include\opencv2\ml\ml.inl.hpp">
+      <Filter>opencv_ml\Include\opencv2\ml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\include\opencv2\photo.hpp">
+      <Filter>opencv_photo\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\include\opencv2\photo\cuda.hpp">
+      <Filter>opencv_photo\Include\opencv2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\include\opencv2\photo\legacy\constants_c.h">
+      <Filter>opencv_photo\Include\opencv2\photo\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\include\opencv2\photo\photo.hpp">
+      <Filter>opencv_photo\Include\opencv2\photo</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn.hpp">
+      <Filter>opencv_dnn\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\all_layers.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\dict.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\dnn.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\dnn.inl.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\layer.details.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\layer.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\shape_utils.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\utils\inference_engine.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\include\opencv2\dnn\version.hpp">
+      <Filter>opencv_dnn\Include\opencv2\dnn</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\gcpukernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\cpu\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\gfluidbuffer.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\gfluidkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\fluid\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\garg.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\garray.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gcall.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gcommon.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gcompiled.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gcompoundkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gcomputation.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gmat.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gmetaarg.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gproto.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\ggpukernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gpu\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gscalar.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gtype_traits.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\gtyped.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\core.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\goclkernel.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\ocl\imgproc.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\opencv_includes.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\operators.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\assert.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\convert.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\cvdefs.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\exports.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\mat.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\saturate.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\scalar.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\own\types.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\any.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\compiler_hints.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\optional.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\throw.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\util.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\gapi\include\opencv2\gapi\util\variant.hpp">
+      <Filter>opencv_gapi\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\ios.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\include\opencv2\imgcodecs\legacy\constants_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\cap_ios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\container_avi.private.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\legacy\constants_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\registry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\videoio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\include\opencv2\videoio\videoio_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\precomp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_dshow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_ffmpeg_impl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\include\opencv2\highgui.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\include\opencv2\highgui\highgui.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\include\opencv2\highgui\highgui_c.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\include\opencv2\features2d.hpp">
+      <Filter>opencv_features2d\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\include\opencv2\features2d\features2d.hpp">
+      <Filter>opencv_features2d\Include\opencv2\features2d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\include\opencv2\features2d\hal\interface.h">
+      <Filter>opencv_features2d\Include\opencv2\features2d\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\include\opencv2\calib3d.hpp">
+      <Filter>opencv_calib3d\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
+      <Filter>opencv_calib3d\Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\include\opencv2\calib3d\calib3d_c.h">
+      <Filter>opencv_calib3d\Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\include\opencv2\objdetect.hpp">
+      <Filter>opencv_objdetect\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\include\opencv2\objdetect\detection_based_tracker.hpp">
+      <Filter>opencv_objdetect\Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\include\opencv2\objdetect\objdetect.hpp">
+      <Filter>opencv_objdetect\Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching.hpp">
+      <Filter>opencv_stitching\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\warpers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\autocalib.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\blenders.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\camera.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\exposure_compensate.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\matchers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\motion_estimators.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\seam_finders.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\timelapsers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\util.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\util_inl.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\warpers.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\include\opencv2\stitching\detail\warpers_inl.hpp">
+      <Filter>opencv_stitching\Include\opencv2\stitching\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\include\opencv2\video.hpp">
+      <Filter>opencv_video\Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\include\opencv2\video\background_segm.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\include\opencv2\video\legacy\constants_c.h">
+      <Filter>opencv_video\Include\opencv2\video\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\include\opencv2\video\tracking.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\include\opencv2\video\video.hpp">
+      <Filter>opencv_video\Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\world\include\opencv2\world.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_core.hpp">
+      <Filter>opencv_core\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\arithm.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\arithm_ipp.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\bufferpool.impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\convert_scale.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\count_non_zero.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\directx.inc.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\gl_core_3_1.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\hal_internal.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\hal_replacement.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\intel_gpu_gemm.inl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mathfuncs.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mathfuncs_core.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\matmul.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\mean.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\merge.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\ocl_deprecated.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_clamdblas_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_clamdfft_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_core_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_core_static_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_gl_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\autogenerated\opencl_gl_static_impl.hpp">
+      <Filter>opencv_core\Src\opencl\runtime\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\runtime\runtime_common.hpp">
+      <Filter>opencv_core\Src\opencl\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\parallel_impl.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\persistence.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\precomp.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\split.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\stat.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\stat.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\sum.simd.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\umatrix.hpp">
+      <Filter>opencv_core\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\flann\src\precomp.hpp">
+      <Filter>opencv_flann\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_imgproc.hpp">
+      <Filter>opencv_imgproc\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\_geom.h">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\accum.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\bilateral_filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\box_filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color.simd_helpers.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_hsv.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_rgb.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\color_yuv.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\corner.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\filter.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\filter.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\filterengine.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\fixedpoint.inl.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\hal_replacement.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\imgwarp.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\median_blur.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\morph.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\precomp.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\resize.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\smooth.simd.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\sumpixels.hpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\kdtree.hpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\ml\src\precomp.hpp">
+      <Filter>opencv_ml\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_photo.hpp">
+      <Filter>opencv_photo\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\arrays.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\contrast_preserve.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\fast_nlmeans_denoising_invoker.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\fast_nlmeans_denoising_invoker_commons.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\fast_nlmeans_denoising_opencl.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\fast_nlmeans_multi_denoising_invoker.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\hdr_common.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\npr.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\precomp.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\seamless_cloning.hpp">
+      <Filter>opencv_photo\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_dnn.hpp">
+      <Filter>opencv_dnn\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\caffe\caffe_io.hpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\caffe\glog_emulator.hpp">
+      <Filter>opencv_dnn\Src\caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\darknet\darknet_io.hpp">
+      <Filter>opencv_dnn\Src\darknet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\halide_scheduler.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\layers_common.hpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\layers\layers_common.simd.hpp">
+      <Filter>opencv_dnn\Src\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\nms.inl.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\include\common.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\include\default_kernel_config.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\include\math_functions.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\ocl4dnn\include\ocl4dnn.hpp">
+      <Filter>opencv_dnn\Src\ocl4dnn\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_halide.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_inf_engine.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\op_vkcom.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\precomp.hpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\tensorflow\tf_graph_simplifier.hpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\tensorflow\tf_io.hpp">
+      <Filter>opencv_dnn\Src\tensorflow</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THDiskFile.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THFile.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THFilePrivate.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\torch\THGeneral.h">
+      <Filter>opencv_dnn\Src\torch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\buffer.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_base.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_concat.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_conv.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_lrn.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_permute.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_pool.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_prior_box.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_relu.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\op_softmax.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\tensor.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\include\vkcom.hpp">
+      <Filter>opencv_dnn\Src\vkcom\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\shader\spv_shader.hpp">
+      <Filter>opencv_dnn\Src\vkcom\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\common.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\context.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\src\internal.hpp">
+      <Filter>opencv_dnn\Src\vkcom\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\vulkan\function_list.inl.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_functions.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\vkcom\vulkan\vk_loader.hpp">
+      <Filter>opencv_dnn\Src\vkcom\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\utils.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_base.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_bmp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_exr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_gdal.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_gdcm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_hdr.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_jpeg.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_jpeg2000.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pam.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pfm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_png.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_pxm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_sunras.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_tiff.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmt_webp.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\grfmts.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\bitstrm.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\rgbe.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\imgcodecs\src\exif.hpp">
+      <Filter>Src\grfmts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\videoio\src\cap_msmf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_features2d.hpp">
+      <Filter>opencv_features2d\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\agast_score.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\fast.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\fast_score.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\hal_replacement.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\AKAZEConfig.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\AKAZEFeatures.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\KAZEConfig.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\KAZEFeatures.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\TEvolution.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\fed.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\nldiffusion_functions.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\kaze\utils.h">
+      <Filter>opencv_features2d\Src\kaze</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\precomp.hpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_calib3d.hpp">
+      <Filter>opencv_calib3d\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\ap3p.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\calib3d_c_api.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\chessboard.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\distortion_model.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\dls.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\epnp.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\fisheye.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\p3p.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\polynom_solver.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\precomp.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\rho.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\undistort.hpp">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\upnp.h">
+      <Filter>opencv_calib3d\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_objdetect.hpp">
+      <Filter>opencv_objdetect\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\cascadedetect.hpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\precomp.hpp">
+      <Filter>opencv_objdetect\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_stitching.hpp">
+      <Filter>opencv_stitching\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\precomp.hpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\util_log.hpp">
+      <Filter>opencv_stitching\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\modules\world\opencl_kernels_video.hpp">
+      <Filter>opencv_video\Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\lkpyramid.hpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\precomp.hpp">
+      <Filter>opencv_video\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\world\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_core.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_imgproc.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_photo.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_dnn.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_features2d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_calib3d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_objdetect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_stitching.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\build\CMakeFiles\4f2fc03dfde651579ccfa92a3613c88e\opencl_kernels_video.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\git\miwoosae-c\opencv\build\modules\world\version_string.inc">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\arithm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\convert.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\copymakeborder.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\copyset.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\cvtclr_dx.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\fft.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\flip.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\gemm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\halfconvert.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\inrange.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\intel_gemm.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\lut.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\meanstddev.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\minmaxloc.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\mixchannels.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\mulspectrums.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\normalize.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\reduce.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\reduce2.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\repeat.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\set_identity.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\split_merge.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\core\src\opencl\transpose.cl">
+      <Filter>opencv_core\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\accumulate.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\bilateral.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\blend_linear.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\boxFilter.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\boxFilter3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\calc_back_project.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\canny.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\clahe.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\color_hsv.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\color_lab.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\color_rgb.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\color_yuv.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\corner.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\covardata.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filter2D.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filter2DSmall.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filterSepCol.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filterSepRow.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filterSep_singlePass.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\filterSmall.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\gaussianBlur3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\gaussianBlur5x5.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\gftt.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\histogram.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\hough_lines.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\integral_sum.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\laplacian3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\laplacian5.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\linearPolar.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\logPolar.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\match_template.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\medianFilter.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\moments.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\morph.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\morph3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\precornerdetect.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\pyr_down.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\pyr_up.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\pyramid_up.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\remap.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\resize.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\sepFilter3x3.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\threshold.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\warp_affine.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\warp_perspective.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\imgproc\src\opencl\warp_transform.cl">
+      <Filter>opencv_imgproc\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\photo\src\opencl\nlmeans.cl">
+      <Filter>opencv_photo\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\activations.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\batchnorm.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\col2im.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\concat.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\conv_layer_spatial.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\conv_spatial_helper.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\detection_output.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\dummy.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\eltwise.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\gemm_buffer.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\gemm_image.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\im2col.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\lrn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\math.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\matvec_mul.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\mvn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\ocl4dnn_lrn.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\ocl4dnn_pooling.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\permute.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\pooling.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\prior_box.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\region.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\slice.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\softmax.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\src\opencl\softmax_loss.cl">
+      <Filter>opencv_dnn\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\opencl\akaze.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\opencl\brute_force_match.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\opencl\fast.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\src\opencl\orb.cl">
+      <Filter>opencv_features2d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\calib3d\src\opencl\stereobm.cl">
+      <Filter>opencv_calib3d\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\opencl\cascadedetect.cl">
+      <Filter>opencv_objdetect\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\objdetect\src\opencl\objdetect_hog.cl">
+      <Filter>opencv_objdetect\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\opencl\multibandblend.cl">
+      <Filter>opencv_stitching\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\stitching\src\opencl\warpers.cl">
+      <Filter>opencv_stitching\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\opencl\bgfg_knn.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\opencl\bgfg_mog2.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\opencl\dis_flow.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\opencl\optical_flow_farneback.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\git\miwoosae-c\opencv\sources\modules\video\src\opencl\pyrlk.cl">
+      <Filter>opencv_video\Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\arithm.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\imgwarp.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\resize.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\accum.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\box_filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\filter.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\color_hsv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\color_rgb.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\color_yuv.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\median_blur.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\morph.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\smooth.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_1.dir\$(Configuration)\gfluidimgproc_func.sse4_1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_SSE4_2.dir\$(Configuration)\stat.sse4_2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_AVX.dir\$(Configuration)\mathfuncs_core.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_AVX.dir\$(Configuration)\corner.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_AVX.dir\$(Configuration)\accum.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\git\miwoosae-c\opencv\build\modules\world\opencv_world_AVX.dir\$(Configuration)\layers_common.avx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\git\miwoosae-c\opencv\build\modules\world\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{060871A6-22C7-3495-9990-1923C308EB01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F7FF47E7-D0AF-30A5-878C-C9C46710C577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{82E0A980-F022-3290-B49B-486F319724FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Cuda Headers">
+      <UniqueIdentifier>{772C9396-7F7A-3C97-9E63-E89A74AF57C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Cuda Headers\Detail">
+      <UniqueIdentifier>{18E7DB8B-04E3-36E4-8D8B-A8C280A04705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{1CCD3D22-31DA-33DD-B3C8-B641F3CF9F24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D2D36CE5-9BE6-36EE-85D2-807F3224D5F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48CE403C-5BBD-3179-8B58-F4F99FB13CC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{9722E5AA-A2D4-3DBF-892E-F6B22193C45E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\grfmts">
+      <UniqueIdentifier>{C4BF7288-4ED3-3F49-838A-B2DF586E9170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d">
+      <UniqueIdentifier>{FD92F013-AD02-330C-8942-6D8792C66181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include">
+      <UniqueIdentifier>{5AEF6AC0-45CF-389C-9B70-0FFE84E50053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include\opencv2">
+      <UniqueIdentifier>{969A4C08-5D62-3A08-85E8-696105CE0E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Include\opencv2\calib3d">
+      <UniqueIdentifier>{192E64F2-F0A7-3EE6-8263-C70B34058781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src">
+      <UniqueIdentifier>{5FF3398E-6CCE-3400-B109-0FB51D04A725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl">
+      <UniqueIdentifier>{EB9367D3-ABBB-30A4-BD99-F9E21B426EE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl\kernels">
+      <UniqueIdentifier>{38123BDB-A3EC-3D7E-AF03-BD0B46346FA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{96C74E3D-7ED9-3DA3-ABC0-F477E6DA5E67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{42890FFD-769C-3CBB-B0AF-0FCF48D8E205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{AB17EE78-E94E-3723-BCFE-7884FED8576F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2">
+      <UniqueIdentifier>{9EF531BB-6D59-3003-80BB-BC80FBD045B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core">
+      <UniqueIdentifier>{9746F509-59EF-3FF3-AD81-349676AC9B64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\hal">
+      <UniqueIdentifier>{5DF948F2-BD8E-36A6-AFCC-25D24982F7AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core\utils">
+      <UniqueIdentifier>{341F3FBA-1760-30AB-8C8C-0B759ACDD08F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{57ED123F-1A82-360B-A4C9-85F3B4A638F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl">
+      <UniqueIdentifier>{9B05873F-1579-3B60-B786-8D49872DE8D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\kernels">
+      <UniqueIdentifier>{2627281B-A770-3CAB-9670-0B969F3955CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{0553AD16-EF46-346A-838B-6481EDE6B5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\runtime">
+      <UniqueIdentifier>{E0009286-EE5A-3BE3-B04E-AC3CA777BC78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\runtime\autogenerated">
+      <UniqueIdentifier>{6252A239-1DF5-39B3-AC15-5E0D63CFDC2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\utils">
+      <UniqueIdentifier>{A5F5E323-C4AC-3DE9-9D56-DD7EE9BB8263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{A6912AB5-6464-3517-BCAF-C904A47E8DE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{BB7FF035-8A87-3FF5-B9B7-102CB6484E27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2">
+      <UniqueIdentifier>{FE4A5D2C-4EB7-32C5-8422-535C02430A43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2\dnn">
+      <UniqueIdentifier>{FF24D0B5-FB1A-3A6D-BB3F-498D518247D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include\opencv2\dnn\utils">
+      <UniqueIdentifier>{26B02AF0-E5DB-327B-934F-E1A424B4C753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{58A4E406-32FD-3B4A-BE81-50AF8061B874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\caffe">
+      <UniqueIdentifier>{3DE43B06-D264-3EDC-A589-7F624188C0E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\darknet">
+      <UniqueIdentifier>{D5876532-26B2-316D-A700-12578CAA90E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\layers">
+      <UniqueIdentifier>{117B6A89-BFBF-3722-B7E4-A57CAC63E8D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn">
+      <UniqueIdentifier>{1E6BFC3B-783D-30F5-BF35-ED5F52D0A141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn\include">
+      <UniqueIdentifier>{2D07B1A5-92C5-3509-A209-7C0160ADD9A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\ocl4dnn\src">
+      <UniqueIdentifier>{A049FDC8-8E51-3067-9671-0A4F971D4930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\onnx">
+      <UniqueIdentifier>{151AFCDC-52CD-3FEF-ACE6-91B638D53FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl">
+      <UniqueIdentifier>{1831FBB5-4049-3CA4-978F-6672553A4784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl\kernels">
+      <UniqueIdentifier>{9C179943-3954-3B52-890B-8465A8B037FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{7A5DFAF7-0609-395B-8E37-57F9509B9315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\tensorflow">
+      <UniqueIdentifier>{96F186E3-A5D9-3FFA-A905-8F7138369560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\torch">
+      <UniqueIdentifier>{3A8D11C0-6C7F-39E1-B8F7-6A759E3D22F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom">
+      <UniqueIdentifier>{2F386B82-6984-3C4B-A875-580B3BD7D551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\include">
+      <UniqueIdentifier>{346DD3F9-D0CA-3686-A1EF-4E1DDCCFF98F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\shader">
+      <UniqueIdentifier>{D9378BDA-B42F-350C-AE06-2BCFD8719FF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\src">
+      <UniqueIdentifier>{7C58E5AF-136F-32DB-9FF4-CA606ED4A539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src\vkcom\vulkan">
+      <UniqueIdentifier>{0F33179A-8CA2-3AEF-AA78-5CE9E9438E8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{DA9AE0CE-AAEF-3670-B987-E19E77FA9D01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{26738960-0232-3CAB-9A44-44DC5779C213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2">
+      <UniqueIdentifier>{AC52639E-321F-3689-A792-57550CFF5191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2\features2d">
+      <UniqueIdentifier>{00424DF4-5863-3656-9594-93378F5CF501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include\opencv2\features2d\hal">
+      <UniqueIdentifier>{17D27340-2764-3156-991C-8CF94A7E8BB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{AB95A514-6F5A-3180-AD49-FFC0CD5FBA84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\kaze">
+      <UniqueIdentifier>{BC54490B-0401-366C-9D5A-016715AEC368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl">
+      <UniqueIdentifier>{410E9B2D-30B0-3AE1-9A35-71004813C63D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl\kernels">
+      <UniqueIdentifier>{67819BCD-27CC-3317-AF9B-2ACF6848149E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{3D118566-E4DF-382C-984D-B080D1D16AFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann">
+      <UniqueIdentifier>{A204B5F3-2C13-341A-B536-FC7DA15C4193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include">
+      <UniqueIdentifier>{40EC2F22-3E9D-3DED-B4ED-344C40420A0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2">
+      <UniqueIdentifier>{9B698638-ACA3-3476-9A9E-3F65A2343C6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2\flann">
+      <UniqueIdentifier>{648A8D35-8AAF-3138-9382-114CD279CC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Src">
+      <UniqueIdentifier>{F4E1C5DD-AD1F-393B-BBA7-A38D263F905C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi">
+      <UniqueIdentifier>{EA8AE567-DFC4-39FB-B47E-AA0C95F0AC20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Include">
+      <UniqueIdentifier>{9A98BBEA-00BF-3C70-B760-05A407BE3CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_gapi\Src">
+      <UniqueIdentifier>{0B36C320-3F42-35C8-B2B7-167287E7B127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{EE4D6073-C0EE-3C4F-A327-9C9B132B1389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include">
+      <UniqueIdentifier>{30876645-2795-3D6F-AD65-2A245DA5ED9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2">
+      <UniqueIdentifier>{5EE79287-2A2A-3862-B253-05A06EA09C59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc">
+      <UniqueIdentifier>{1DBB9E90-42D3-3372-87E7-3236E73B70E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc\detail">
+      <UniqueIdentifier>{65F7A39A-E77A-310F-9C93-B56F08E0D868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc\hal">
+      <UniqueIdentifier>{059549C9-299A-3AC4-B86D-D98175A6FF94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{3A010E87-ABF4-3338-97E5-F220B10C5125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl">
+      <UniqueIdentifier>{B6C14444-4C15-35D8-9B71-E5D647AC9F24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels">
+      <UniqueIdentifier>{9EDE14A0-D299-3E6E-87E2-C415A9804FCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{D9065C71-41CF-33FB-8A0A-D5F81E8039EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml">
+      <UniqueIdentifier>{1707680B-F8EC-3642-9F77-5A07D81FC998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include">
+      <UniqueIdentifier>{2F441B6E-0B6A-3B82-A7F6-4528A8E60C3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2">
+      <UniqueIdentifier>{79947CC8-10D2-3DB4-85F4-AA202BE9536D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2\ml">
+      <UniqueIdentifier>{7E6C16CB-E70A-3EA4-AB85-6EA35AB74964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Src">
+      <UniqueIdentifier>{6A30961F-F254-3F20-92FB-FC85F6AE2F68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect">
+      <UniqueIdentifier>{155A7A95-63B0-39B9-901F-EC4A5D0CD211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include">
+      <UniqueIdentifier>{46130DC5-B0BD-3106-9293-AF6457D2F4B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include\opencv2">
+      <UniqueIdentifier>{A4AF2B23-B2B3-3191-894C-9F6EB0A7E8B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Include\opencv2\objdetect">
+      <UniqueIdentifier>{F9756468-BEE0-3EE2-94BE-D6BDAE076319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src">
+      <UniqueIdentifier>{277585FE-B310-3AC9-9397-EC3E774A3C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl">
+      <UniqueIdentifier>{908CEB33-90FC-38AF-BA7A-E60D1599495F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl\kernels">
+      <UniqueIdentifier>{019AE043-18E5-33DF-9EBE-A96D4D9713AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{5F60275C-E6C1-3878-ACB7-01ED6CF71B39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{436D5DE3-CAD6-3428-86E6-5137F3593785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{D700DB12-7A4C-33BA-8333-B1BC81869921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2">
+      <UniqueIdentifier>{C3E58C9E-20AB-30AF-A226-D28190DB840E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2\photo">
+      <UniqueIdentifier>{EA865C8E-C1BF-3751-9C95-EABE8906F5FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2\photo\legacy">
+      <UniqueIdentifier>{A3F808D9-91A8-3418-856E-4DE1929AE32B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{EC2BAF10-FAFB-3E6C-8AB2-54BAA582EADC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl">
+      <UniqueIdentifier>{EA596594-23E9-3A7F-8E12-BF9B9F40C412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels">
+      <UniqueIdentifier>{1CF2EEE4-2224-3707-9B9A-2519CCD835A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{A0B5FD8D-F2D5-3B61-B3F4-BB4E9FAFF7EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching">
+      <UniqueIdentifier>{AB08248A-ABF2-3E63-9888-D0E6E9776D5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include">
+      <UniqueIdentifier>{1519F5DD-65F1-30E0-A0BB-AB71629BBB0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2">
+      <UniqueIdentifier>{65DE34B1-145D-3949-B51F-EF65F78A25DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2\stitching">
+      <UniqueIdentifier>{9DC03EF8-5EB7-3BDC-AC41-CAD164442D49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Include\opencv2\stitching\detail">
+      <UniqueIdentifier>{C767E5FD-E45B-3C28-95D2-66AD42555686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src">
+      <UniqueIdentifier>{4AFA0FC6-5241-3FF5-B36A-ED0CFF6698DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl">
+      <UniqueIdentifier>{415DD77C-3D57-38F8-9A66-8FE06D8C987C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl\kernels">
+      <UniqueIdentifier>{0E2AA503-28FA-392B-9FCF-CDDC924C2CD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{119CC915-72EC-3865-8531-8E4338F77720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{03DDCF2F-C321-3AC1-B1B0-40C6C1946321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{A2AED392-317C-3FD7-B0C3-8265D37C58EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2">
+      <UniqueIdentifier>{4505DA89-86E2-3546-8BA7-31FD748C8778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2\video">
+      <UniqueIdentifier>{34A2A35D-476D-3D47-8FDF-1D0AEA42DB11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Include\opencv2\video\legacy">
+      <UniqueIdentifier>{6520252C-7E07-3DFC-A406-BD58E942661F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{50B62449-49B8-3507-817E-829C7894FD97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl">
+      <UniqueIdentifier>{2D1F188B-967D-3B1C-93B0-12D804AEF55F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels">
+      <UniqueIdentifier>{4F77882A-EE88-3D1D-8C6B-59022C301C0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{9A0CB60E-7407-30EE-B809-E26FE6DD93A9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

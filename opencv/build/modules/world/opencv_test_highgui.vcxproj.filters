@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\test\test_gui.cpp">
+      <Filter>opencv_highgui\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\test\test_main.cpp">
+      <Filter>opencv_highgui\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\highgui\test\test_precomp.hpp">
+      <Filter>opencv_highgui\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_highgui">
+      <UniqueIdentifier>{2D3803EB-677A-31FB-B37B-792884B81A1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_highgui\Include">
+      <UniqueIdentifier>{32D7DABC-BEB1-378A-B19A-709B4CF6FB6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_highgui\Src">
+      <UniqueIdentifier>{43732072-5E7E-30D5-85BE-991AFA05578B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

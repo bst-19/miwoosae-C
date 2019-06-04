@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\npy_blob.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_backends.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_caffe_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_common.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_darknet_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_googlenet.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_halide_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_ie_models.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_layers.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_main.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_misc.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_nms.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_onnx_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_tf_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_torch_importer.cpp">
+      <Filter>opencv_dnn\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\npy_blob.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_common.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_common.impl.hpp">
+      <Filter>test_common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\dnn\test\test_precomp.hpp">
+      <Filter>opencv_dnn\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_dnn">
+      <UniqueIdentifier>{A6912AB5-6464-3517-BCAF-C904A47E8DE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Include">
+      <UniqueIdentifier>{BB7FF035-8A87-3FF5-B9B7-102CB6484E27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_dnn\Src">
+      <UniqueIdentifier>{58A4E406-32FD-3B4A-BE81-50AF8061B874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_common">
+      <UniqueIdentifier>{94A09DF7-0A86-3AB4-92F6-878DD2FF36A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

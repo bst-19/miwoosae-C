@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/git/miwoosae-c/opencv/sources/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/git/miwoosae-c/opencv/sources/modules/java/common.cmake
+C:/git/miwoosae-c/opencv/sources/modules/java/generator/CMakeLists.txt
+C:/git/miwoosae-c/opencv/sources/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/git/miwoosae-c/opencv/sources/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in

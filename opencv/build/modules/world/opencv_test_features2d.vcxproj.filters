@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\ocl\test_brute_force_matcher.cpp">
+      <Filter>opencv_features2d\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\ocl\test_feature2d.cpp">
+      <Filter>opencv_features2d\Src\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_agast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_akaze.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_brisk.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_descriptors_invariance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_descriptors_regression.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_detectors_invariance.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_detectors_regression.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_drawing.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_fast.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_keypoints.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_main.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_matchers_algorithmic.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_mser.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_nearestneighbors.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_orb.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_utils.cpp">
+      <Filter>opencv_features2d\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_descriptors_invariance.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_descriptors_regression.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_detectors_invariance.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_detectors_regression.impl.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_invariance_utils.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\git\miwoosae-c\opencv\sources\modules\features2d\test\test_precomp.hpp">
+      <Filter>opencv_features2d\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\git\miwoosae-c\opencv\sources\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{DA9AE0CE-AAEF-3670-B987-E19E77FA9D01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{26738960-0232-3CAB-9A44-44DC5779C213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{AB95A514-6F5A-3180-AD49-FFC0CD5FBA84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d\Src\ocl">
+      <UniqueIdentifier>{A2CD44F0-C0F3-3649-A612-277AE65BAF4D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
