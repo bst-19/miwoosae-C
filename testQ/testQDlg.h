@@ -15,6 +15,10 @@ class CtestQDlg : public CDialogEx
 	#define WINDOW_HEIGHT		(600)
 	#define WINDOW_MARGIN		(25)
 
+	#define LOG_ERR			(900)
+	#define LOG_NORM		(800)
+	#define LOG_SUCCESS		(700)
+
 // 생성입니다.
 public:
 	CtestQDlg(CWnd* pParent = nullptr);	// 표준 생성자입니다.
@@ -40,6 +44,10 @@ protected:
 	DECLARE_MESSAGE_MAP()
 
 public:
+	int setLog(LPWSTR str_log);
+	void setResources(void);
+	void setIRBlaster(void);
+
 	// 동영상 출력을 위한 변수
 	CStatic m_picture;
 	afx_msg void OnDestroy();
@@ -78,9 +86,7 @@ public:
 	afx_msg void OnLvnItemchangedList1(NMHDR *pNMHDR, LRESULT *pResult);
 	CListCtrl m_list;
 	afx_msg void OnGetMinMaxInfo(MINMAXINFO* lpMMI);
-	CStatic m_box1;
-	CStatic m_box2;
-	CStatic m_box3;
+
 
 	// 이미지를 출력하기 위한 변수
 	CStatic m_bird_pic;
@@ -91,8 +97,12 @@ public:
 	CStatic m_txt_IR;
 	CButton m_btn_off;
 	CButton m_btn_on;
+	CStatic m_box1;
+
 	afx_msg void OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult);
 	afx_msg void OnBnClickedBtnOn();
 	afx_msg void OnBnClickedBtnOff();
 	afx_msg void OnBnClickedStart();
+
+
 };

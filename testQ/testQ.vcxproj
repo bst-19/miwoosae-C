@@ -93,12 +93,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\opencv\build\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\IR;..\opencv\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>opencv_world410d.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\opencv\build\x86\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world410d.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\IR;..\opencv\build\x86\vc15\lib</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -151,8 +151,8 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>opencv_world410.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\opencv\build\x86\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world410.lib;uuirtdrv.dll;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\IR;..\opencv\build\x86\vc15\lib</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
