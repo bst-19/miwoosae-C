@@ -2,6 +2,7 @@
 // testQDlg.cpp: 구현 파일
 //
 
+#include <Windows.h>
 #include "stdafx.h"
 #include "testQ.h"
 #include "testQDlg.h"
@@ -425,6 +426,7 @@ void CtestQDlg::OnBnClickedBtnOff()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
 
+<<<<<<< HEAD
 	setLog(L"[IR] Off Button Clicked");
 
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
@@ -437,6 +439,11 @@ void CtestQDlg::OnBnClickedBtnOff()
 	m_list.SetItemText(0, 1, L"IR Blaster로 Power Off Code를 송신합니다.");
 	IRSend(gIRCode);
 
+=======
+	pDlg->m_list.InsertItem(0, L"[IR] OFF button Clicked");
+	pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+	pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+>>>>>>> parent of 6bd8f60... Resolve a merge conflict
 }
 
 
@@ -445,11 +452,43 @@ void CtestQDlg::OnBnClickedBtnOn()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
 
+<<<<<<< HEAD
 	setLog(L"[IR] On Button Clicked");
+=======
+	pDlg->m_list.InsertItem(0, L"[IR] On button Clicked");
+	pDlg->m_list.SetItemText(0, 1, get_time().c_str());
+	pDlg->m_StatusBar.SetText(get_date().c_str(), 2, 0);
+}
+>>>>>>> parent of 6bd8f60... Resolve a merge conflict
 
+
+void CtestQDlg::OnBnClickedStart()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+
+}
+
+
+void CtestQDlg::OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	*pResult = 0;
+}
+
+
+<<<<<<< HEAD
+	}
+	else {
+		setLog(L"이미 진행중입니다");
+=======
+void CtestQDlg::OnBnClickedBtnOn()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	if (IRReceiveCallbackRegYn == 0) {
 		// 원할한 테스트를 위해 DLL API를 활용한 callback은 태그로 확인하여 등록
 		fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
+>>>>>>> parent of 6bd8f60... Resolve a merge conflict
 	}
 
 
@@ -460,27 +499,17 @@ void CtestQDlg::OnBnClickedBtnOn()
 }
 
 
-void CtestQDlg::OnBnClickedStart()
+void CtestQDlg::OnBnClickedBtnOff()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
-	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
-
-	if (pDlg->test_status == 0) {
-		m_pThread = AfxBeginThread(UpdateLog, this);
-
+	if (IRReceiveCallbackRegYn == 0) {
+		// 원할한 테스트를 위해 DLL API를 활용한 callback은 태그로 확인하여 등록
+		fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
 	}
-	else {
-		setLog(L"이미 진행중입니다");
-	}
-
-}
-
-
-void CtestQDlg::OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult)
-{
-	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
-	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
-	*pResult = 0;
+	char	gIRCode[2048] =
+		"0000 006C 0022 0002 0155 00A9 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0602 0155 0056 0015 0E4A";
+	m_list.SetItemText(0, 1, L"IR Blaster로 Power Off Code를 송신합니다.");
+	IRSend(gIRCode);
 }
 
 
