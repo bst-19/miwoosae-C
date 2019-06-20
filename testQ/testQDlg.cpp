@@ -2,7 +2,6 @@
 // testQDlg.cpp: 구현 파일
 //
 
-#include <Windows.h>
 #include "stdafx.h"
 #include "testQ.h"
 #include "testQDlg.h"
@@ -392,16 +391,30 @@ UINT CtestQDlg::UpdateLog(LPVOID _mothod) {
 	pDlg->test_status = 1;
 	pDlg->g_cs_status.Unlock();
 
-	pDlg->setLog(L"테스트를 시작합니다.");
-
-
+	CString strData;
+	pDlg->m_repeat_combo.GetLBText(pDlg->m_repeat_combo.GetCurSel(), strData);
+	int m = _ttoi(strData);
+ 
 	//
 	// Some Test func...
 	//
-	Sleep(5000);
+	wstringstream log_txt;
 
-	pDlg->setLog(L"테스트를 종료합니다.");
+	for (int i = 0; i < m; i++) {
+		
+		log_txt << L"[" << i+1 << L"] 테스트를 시작합니다.";
+		pDlg->setLog((LPWSTR)log_txt.str().c_str());
+		log_txt.str(L"");
+		auto start = get_nano_time();
 
+		Sleep(1000);
+
+		auto end = get_nano_time();
+		chrono::duration<double> sec = end - start;
+		log_txt << L"[" << i + 1 << L"] 테스트를 종료합니다." << sec.count() << " ns";
+		pDlg->setLog((LPWSTR)log_txt.str().c_str());
+		log_txt.str(L"");
+	}
 
 	pDlg->g_cs_status.Lock();
 	pDlg->test_status = 0;

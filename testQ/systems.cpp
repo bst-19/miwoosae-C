@@ -41,3 +41,20 @@ wstring get_time() {
 
 	return ptr;
 }
+
+chrono::steady_clock::time_point get_nano_time(){
+	auto cur_nano = chrono::high_resolution_clock::now();
+	return cur_nano;
+}
+
+
+wstring timepoint_to_wstring(const std::chrono::system_clock::time_point& p_tpTime, const std::string& p_sFormat)
+{
+	auto converted_timep = std::chrono::system_clock::to_time_t(p_tpTime);
+	ostringstream oss;
+	oss << std::put_time(std::localtime(&converted_timep), p_sFormat.c_str());
+
+	wstringstream w_oss;
+	w_oss << oss.str().c_str();
+	return w_oss.str();
+}
