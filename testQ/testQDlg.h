@@ -63,9 +63,23 @@ public:
 	int cropYn = 0;
 	int startYn = 0;
 	STOPWATCH CWatch;
+	char *dir = "img_res/";
+	char *base = "img_res/0.jpg";
+	int file_name = 0;
 
 	int low_threshold = 50;
 	int high_threshold = 150;
+
+	// 이미지 유사도를 위한 변수 선언
+	int h_bins = 50, s_bins = 60;
+	int histSize[2] = { h_bins, s_bins };
+	float h_ranges[2] = { 0, 180 };
+	float s_ranges[2] = { 0, 256 };
+	const float * ranges[2] = { h_ranges, s_ranges };
+	int channels[2] = { 0, 1 };
+
+	Mat src_base, re_base, hist_base; 
+	Mat dst_target, re_target, hist_target;
 
 	// 상태표시줄 (Status Bar) 표현을 위한 변수
 	CStatusBarCtrl m_StatusBar;

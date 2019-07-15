@@ -224,6 +224,7 @@ void CtestQDlg::OnDestroy()
 
 void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 {
+	//Sleep(300);
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
 		// 캡쳐한 내용을 읽어서 mat_frame에 배열형태로 담음
 		capture->read(mat_frame);
@@ -359,6 +360,63 @@ void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 			
 			//차영상을 구하기 위한 영상 비교
 			if (startYn == 1) {
+				char buf[50];
+				char buf2[100];
+				char file[10];
+				wchar_t wtext[100];
+				wchar_t wtext2[100];
+				wchar_t wtext3[100];
+				double diff;
+				char diff_ch[100];
+				string str;
+				double time;
+				
+				itoa(file_name, file, 10);
+				strcpy(buf, dir);
+				strcat(buf, file);
+				strcat(buf, ".jpg");
+
+				str = buf;
+				mbstowcs(wtext, buf, strlen(buf) + 1);
+				setLog(wtext);
+				imwrite(str, mat_temp);
+				
+				dst_target = imread(str, IMREAD_COLOR);
+				if (dst_target.empty()) {
+					setLog(L"이미지 유사도를 위한 target 이미지가 초기화 되지 않았습니다.");
+				}
+				
+				cvtColor(dst_target, re_target, COLOR_BGR2YCrCb);
+				calcHist(&re_target, 1, channels, Mat(), hist_target, 2, histSize, ranges, true, false);
+				normalize(hist_target, hist_target, 0, 1, NORM_MINMAX, -1, Mat());
+				
+				if (file_name == 0) {
+					setLog(wtext);
+					src_base = imread(str, IMREAD_COLOR);
+					if (src_base.empty()) {
+						setLog(L"이미지 유사도를 위한 base 이미지가 초기화 되지 않았습니다.");
+					}
+
+					cvtColor(src_base, re_base, COLOR_BGR2YCrCb);
+					calcHist(&re_base, 1, channels, Mat(), hist_base, 2, histSize, ranges, true, false);
+					normalize(hist_base, hist_base, 0, 1, NORM_MINMAX, -1, Mat());
+					
+					CWatch.Start();
+					OnBnClickedBtnOn();
+				}
+
+				diff = compareHist(hist_base, hist_target, 1);
+				
+				sprintf(diff_ch, "%.3f", diff);
+				mbstowcs(wtext2, diff_ch, strlen(diff_ch) + 1);
+				m_edit_diff.SetWindowTextW(wtext2);
+				
+				file_name++;
+				
+				/*
+				char buf[10];
+				wchar_t wtext[100];
+
 				if (mat_temp.empty() || mat_tmp_frame.empty()) {
 					setLog(L"차영상을 위한 초기화가 되지 않았습니다.");
 				}
@@ -368,36 +426,22 @@ void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 				int movecnt = countNonZero(diff_frame);
 				mat_temp = diff_frame.clone();
 
-				char buf[10];
-				wchar_t wtext[100];
-				char buf2[100];
-				wchar_t wtext2[100];
-				double time;
-				
-
 				// 차 영상 정도 상수 초기화
 				itoa(movecnt, buf, 10);
 				mbstowcs(wtext, buf, strlen(buf) + 1);
 				//setLog(wtext);
 				m_edit_diff.SetWindowTextW(wtext);
 
+				*/
+
 				// 카운트 기능 상수 초기화
-				
-				//sprintf(buf2, "%.3f", ((double)CWatch.TimeCheck() / 1000));
-				
 				time = (double)CWatch.mTimeCheck();
 				sprintf(buf2, "%.3f", (time / 1000));
-				mbstowcs(wtext2, buf2, strlen(buf2) + 1);
+				mbstowcs(wtext3, buf2, strlen(buf2) + 1);
 
-				m_edit_time.SetWindowTextW(wtext2);
-
-				/*
-				Point myPoint;
-				myPoint.x = 10;
-				myPoint.y = 40;
-
-				putText(mat_temp, cnt_text, myPoint, 2, 5, Scalar(255, 0, 0));
-				*/
+				m_edit_time.SetWindowTextW(wtext3);
+				
+				//sprintf(buf2, "%.3f", ((double)CWatch.TimeCheck() / 1000));
 			}
 
 
@@ -405,7 +449,7 @@ void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 				destx, desty, destw, desth,
 				imgx, imgy, imgWidth, imgHeight,
 				mat_temp.data, bitInfo, DIB_RGB_COLORS, SRCCOPY);
-
+			/*
 			if (startYn == 1) {
 				mat_tmp_frame = diff_frame.clone();
 			}
@@ -415,7 +459,8 @@ void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 
 			if (mat_tmp_frame.empty()) {
 				setLog(L"차영상을 위한 영상 COPY가 되고 있지 않습니다.");
-			}	
+			}
+			*/
 		}
 
 		HDC dc = ::GetDC(m_picture.m_hWnd);
@@ -760,6 +805,7 @@ void CtestQDlg::OnBnClickedStart()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	bootTimeAval();
+	CreateDirectory(_T("img_res"), NULL);
 	m_btn_start.EnableWindow(false);
 	m_btn_stop.EnableWindow(true);
 }
@@ -767,7 +813,7 @@ void CtestQDlg::OnBnClickedStart()
 void CtestQDlg::bootTimeAval()
 {
 	setLog(_T("부트 타임 프로세스 실행\n"));
-	CWatch.Start();
+	//CWatch.Start();
 	startYn = 1;
 }
 
@@ -791,4 +837,6 @@ void CtestQDlg::OnBnClickedStop()
 	m_edit_diff.SetWindowTextW(L"");
 	m_btn_start.EnableWindow(true);
 	m_btn_stop.EnableWindow(false);
+
+	file_name = 0;
 }
