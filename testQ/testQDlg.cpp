@@ -8,6 +8,17 @@
 #include "afxdialogex.h"
 #include "uuirtdrv.h"
 #include "conio.h"
+#include "crop.h"
+#include "atlstr.h"
+
+// 이미지 Crop 관련 include
+#include <math.h>
+#include <string.h>
+#include "opencv2/opencv.hpp"
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+using namespace cv;
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -66,6 +77,10 @@ void CtestQDlg::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_STATIC_IR, m_txt_IR);
 	DDX_Control(pDX, IDC_BTN_OFF, m_btn_off);
 	DDX_Control(pDX, IDC_BTN_ON, m_btn_on);
+	DDX_Control(pDX, IDC_CROP, m_btn_crop);
+	DDX_Control(pDX, IDC_STOP, m_btn_stop);
+	DDX_Control(pDX, IDC_EDIT1, m_edit_diff);
+	DDX_Control(pDX, IDC_EDIT2, m_edit_time);
 }
 
 BEGIN_MESSAGE_MAP(CtestQDlg, CDialogEx)
@@ -82,7 +97,11 @@ BEGIN_MESSAGE_MAP(CtestQDlg, CDialogEx)
 	ON_NOTIFY(LVN_ITEMCHANGED, IDC_LOG, &CtestQDlg::OnLvnItemchangedLog)
 	ON_BN_CLICKED(IDC_BTN_ON, &CtestQDlg::OnBnClickedBtnOn)
 	ON_BN_CLICKED(IDC_BTN_OFF, &CtestQDlg::OnBnClickedBtnOff)
-	ON_BN_CLICKED(IDC_START, &CtestQDlg::OnBnClickedStart)
+//	ON_BN_CLICKED(IDC_START, &CtestQDlg::OnBnClickedStart)
+//	ON_BN_CLICKED(IDC_BUTTON1, &CtestQDlg::OnBnClickedButton1)
+ON_BN_CLICKED(IDC_CROP, &CtestQDlg::OnBnClickedCrop)
+ON_BN_CLICKED(IDC_START, &CtestQDlg::OnBnClickedStart)
+ON_BN_CLICKED(IDC_STOP, &CtestQDlg::OnBnClickedStop)
 END_MESSAGE_MAP()
 
 
@@ -138,8 +157,6 @@ BOOL CtestQDlg::OnInitDialog()
 	capture->set(CAP_PROP_FRAME_HEIGHT, 500);
 
 	SetTimer(1000, 30, NULL);
-
-
 
 	return TRUE;  // 포커스를 컨트롤에 설정하지 않으면 TRUE를 반환합니다.
 }
@@ -208,139 +225,208 @@ void CtestQDlg::OnDestroy()
 void CtestQDlg::OnTimer(UINT_PTR nIDEvent)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+		// 캡쳐한 내용을 읽어서 mat_frame에 배열형태로 담음
+		capture->read(mat_frame);
 
-	// 캡쳐한 내용을 읽어서 mat_frame에 배열형태로 담음
-	capture->read(mat_frame);
+		//	 open CV 함수 적용
+		// 그레이 스케일 이미지로 변환
+		cvtColor(mat_frame, mat_frame, COLOR_BGR2GRAY);
 
+		// 화면에 보여주기 위한 처리
+		// elemSize : 채널의 갯수 에 8bit을 곱한다
+		int bpp = 8 * mat_frame.elemSize();
 
-	//	 open CV 함수 적용
-	// 그레이 스케일 이미지로 변환
-	cvtColor(mat_frame, mat_frame, COLOR_BGR2GRAY);
+		// bpp : bits per pixel
+		assert((bpp == 8 || bpp == 24 || bpp == 32));
 
-	// 화면에 보여주기 위한 처리
-	// elemSize : 채널의 갯수 에 8bit을 곱한다
-	int bpp = 8 * mat_frame.elemSize();
+		// bit 에 따라 padding을 결정함
+		int padding = 0;
+		//32 bit image is always DWORD aligned because each pixel requires 4 bytes
+		if (bpp < 32)
+			padding = 4 - (mat_frame.cols % 4);
 
-	// bpp : bits per pixel
-	assert((bpp == 8 || bpp == 24 || bpp == 32));
+		if (padding == 4)
+			padding = 0;
 
-	// bit 에 따라 padding을 결정함
-	int padding = 0;
-	//32 bit image is always DWORD aligned because each pixel requires 4 bytes
-	if (bpp < 32)
-		padding = 4 - (mat_frame.cols % 4);
-
-	if (padding == 4)
-		padding = 0;
-
-	int border = 0;
-	//32 bit image is always DWORD aligned because each pixel requires 4 bytes
-	if (bpp < 32)
-	{
-		border = 4 - (mat_frame.cols % 4);
-	}
-
-
-	Mat mat_temp;
-	if (border > 0 || mat_frame.isContinuous() == false)
-	{
-		// Adding needed columns on the right (max 3 px)
-		// 테두리 처리 여부 결정 (각 테두리를 0으로 채움)
-		cv::copyMakeBorder(mat_frame, mat_temp, 0, 0, 0, border, cv::BORDER_CONSTANT, 0);
-	}
-	else
-	{
-		mat_temp = mat_frame;
-	}
-
-	// r : 크기를 다루는 클래스 객체
-	RECT r;
-
-	// Picture Control의 크기를 r에 저장
-	m_picture.GetClientRect(&r);
-	cv::Size winSize(r.right, r.bottom);
-
-	if (cimage_mfc) {
-		cimage_mfc.ReleaseDC();
-		delete cimage_mfc;
-	}
-
-
-	cimage_mfc.Create(winSize.width, winSize.height, 24);
-
-	BITMAPINFO *bitInfo = (BITMAPINFO*)malloc(sizeof(BITMAPINFO) + 256 * sizeof(RGBQUAD));
-	bitInfo->bmiHeader.biBitCount = bpp;
-	bitInfo->bmiHeader.biWidth = mat_temp.cols;
-	bitInfo->bmiHeader.biHeight = -mat_temp.rows;
-	bitInfo->bmiHeader.biPlanes = 1;
-	bitInfo->bmiHeader.biSize = sizeof(BITMAPINFOHEADER);
-	bitInfo->bmiHeader.biCompression = BI_RGB;
-	bitInfo->bmiHeader.biClrImportant = 0;
-	bitInfo->bmiHeader.biClrUsed = 0;
-	bitInfo->bmiHeader.biSizeImage = 0;
-	bitInfo->bmiHeader.biXPelsPerMeter = 0;
-	bitInfo->bmiHeader.biYPelsPerMeter = 0;
-
-
-	//그레이스케일 인경우 팔레트가 필요
-	if (bpp == 8)
-	{
-		RGBQUAD* palette = bitInfo->bmiColors;
-		for (int i = 0; i < 256; i++)
+		int border = 0;
+		//32 bit image is always DWORD aligned because each pixel requires 4 bytes
+		if (bpp < 32)
 		{
-			palette[i].rgbBlue = palette[i].rgbGreen = palette[i].rgbRed = (BYTE)i;
-			palette[i].rgbReserved = 0;
+			border = 4 - (mat_frame.cols % 4);
 		}
-	}
 
 
-	// Image is bigger or smaller than into destination rectangle
-	// we use stretch in full rect
+		Mat mat_temp;
+		if (border > 0 || mat_frame.isContinuous() == false)
+		{
+			// Adding needed columns on the right (max 3 px)
+			// 테두리 처리 여부 결정 (각 테두리를 0으로 채움)
+			cv::copyMakeBorder(mat_frame, mat_temp, 0, 0, 0, border, cv::BORDER_CONSTANT, 0);
+		}
+		else
+		{
+			mat_temp = mat_frame;
+		}
 
-	if (mat_temp.cols == winSize.width  && mat_temp.rows == winSize.height)
-	{
-		// source and destination have same size
-		// transfer memory block
-		// NOTE: the padding border will be shown here. Anyway it will be max 3px width
+		// r : 크기를 다루는 클래스 객체
+		RECT r;
 
-		SetDIBitsToDevice(cimage_mfc.GetDC(),
-			//destination rectangle
-			0, 0, winSize.width, winSize.height,
-			0, 0, 0, mat_temp.rows,
-			mat_temp.data, bitInfo, DIB_RGB_COLORS);
-	}
-	else
-	{
-		// destination rectangle
-		int destx = 0, desty = 0;
-		int destw = winSize.width;
-		int desth = winSize.height;
+		// Picture Control의 크기를 r에 저장
+		m_picture.GetClientRect(&r);
+		cv::Size winSize(r.right, r.bottom);
 
-		// rectangle defined on source bitmap
-		// using imgWidth instead of mat_temp.cols will ignore the padding border
-		int imgx = 0, imgy = 0;
-		int imgWidth = mat_temp.cols - border;
-		int imgHeight = mat_temp.rows;
+		if (cimage_mfc) {
+			cimage_mfc.ReleaseDC();
+			delete cimage_mfc;
+		}
 
-		StretchDIBits(cimage_mfc.GetDC(),
-			destx, desty, destw, desth,
-			imgx, imgy, imgWidth, imgHeight,
-			mat_temp.data, bitInfo, DIB_RGB_COLORS, SRCCOPY);
-	}
+		cimage_mfc.Create(winSize.width, winSize.height, 24);
+
+		BITMAPINFO *bitInfo = (BITMAPINFO*)malloc(sizeof(BITMAPINFO) + 256 * sizeof(RGBQUAD));
+		bitInfo->bmiHeader.biBitCount = bpp;
+		bitInfo->bmiHeader.biWidth = mat_temp.cols;
+		bitInfo->bmiHeader.biHeight = -mat_temp.rows;
+		bitInfo->bmiHeader.biPlanes = 1;
+		bitInfo->bmiHeader.biSize = sizeof(BITMAPINFOHEADER);
+		bitInfo->bmiHeader.biCompression = BI_RGB;
+		bitInfo->bmiHeader.biClrImportant = 0;
+		bitInfo->bmiHeader.biClrUsed = 0;
+		bitInfo->bmiHeader.biSizeImage = 0;
+		bitInfo->bmiHeader.biXPelsPerMeter = 0;
+		bitInfo->bmiHeader.biYPelsPerMeter = 0;
+
+		//그레이스케일 인경우 팔레트가 필요
+		if (bpp == 8)
+		{
+			RGBQUAD* palette = bitInfo->bmiColors;
+			for (int i = 0; i < 256; i++)
+			{
+				palette[i].rgbBlue = palette[i].rgbGreen = palette[i].rgbRed = (BYTE)i;
+				palette[i].rgbReserved = 0;
+			}
+		}
+
+		// Image is bigger or smaller than into destination rectangle
+		// we use stretch in full rect
+
+		if (mat_temp.cols == winSize.width  && mat_temp.rows == winSize.height)
+		{
+			// source and destination have same size
+			// transfer memory block
+			// NOTE: the padding border will be shown here. Anyway it will be max 3px width
+
+			SetDIBitsToDevice(cimage_mfc.GetDC(),
+				//destination rectangle
+				0, 0, winSize.width, winSize.height,
+				0, 0, 0, mat_temp.rows,
+				mat_temp.data, bitInfo, DIB_RGB_COLORS);
+		}
+		else
+		{
+			int destx, desty;
+			int destw, desth;
+			int imgx, imgy;
+			int imgWidth, imgHeight;
+
+			// destination rectangle
+
+			// CROP 기능을 사용하지 않았을 경우
+			if (cropYn == 0) {
+				destx = 0, desty = 0;
+				destw = winSize.width;
+				desth = winSize.height;
+
+				imgx = 0, imgy = 0;
+				imgWidth = mat_temp.cols - border;
+				imgHeight = mat_temp.rows;
+			}
+			else {
+				// CROP 기능을 사용했을 경우
+				destx = 0;
+				desty = 0;
+				destw = winSize.width;
+				desth = winSize.height;
+
+				imgx = pos[0]-100, imgy = pos[1];
+				imgWidth = pos[6] - pos[0];
+				imgHeight = pos[7] - pos[1];
+
+				char buf[10];
+				wchar_t wtext[100];
+				itoa(pos[7] - pos[1], buf, 10);
+				mbstowcs(wtext, buf, strlen(buf) + 1);
+			}
+			
+			//차영상을 구하기 위한 영상 비교
+			if (startYn == 1) {
+				if (mat_temp.empty() || mat_tmp_frame.empty()) {
+					setLog(L"차영상을 위한 초기화가 되지 않았습니다.");
+				}
+				absdiff(mat_tmp_frame , mat_temp, diff_frame);
+				threshold(diff_frame, diff_frame, 200, 255, THRESH_BINARY);
+			
+				int movecnt = countNonZero(diff_frame);
+				mat_temp = diff_frame.clone();
+
+				char buf[10];
+				wchar_t wtext[100];
+				char buf2[100];
+				wchar_t wtext2[100];
+				double time;
+				
+
+				// 차 영상 정도 상수 초기화
+				itoa(movecnt, buf, 10);
+				mbstowcs(wtext, buf, strlen(buf) + 1);
+				//setLog(wtext);
+				m_edit_diff.SetWindowTextW(wtext);
+
+				// 카운트 기능 상수 초기화
+				
+				//sprintf(buf2, "%.3f", ((double)CWatch.TimeCheck() / 1000));
+				
+				time = (double)CWatch.mTimeCheck();
+				sprintf(buf2, "%.3f", (time / 1000));
+				mbstowcs(wtext2, buf2, strlen(buf2) + 1);
+
+				m_edit_time.SetWindowTextW(wtext2);
+
+				/*
+				Point myPoint;
+				myPoint.x = 10;
+				myPoint.y = 40;
+
+				putText(mat_temp, cnt_text, myPoint, 2, 5, Scalar(255, 0, 0));
+				*/
+			}
 
 
-	HDC dc = ::GetDC(m_picture.m_hWnd);
-	cimage_mfc.BitBlt(dc, 0, 0);
+			StretchDIBits(cimage_mfc.GetDC(),
+				destx, desty, destw, desth,
+				imgx, imgy, imgWidth, imgHeight,
+				mat_temp.data, bitInfo, DIB_RGB_COLORS, SRCCOPY);
 
+			if (startYn == 1) {
+				mat_tmp_frame = diff_frame.clone();
+			}
+			else {
+				mat_tmp_frame = mat_temp.clone();
+			}
 
-	::ReleaseDC(m_picture.m_hWnd, dc);
+			if (mat_tmp_frame.empty()) {
+				setLog(L"차영상을 위한 영상 COPY가 되고 있지 않습니다.");
+			}	
+		}
 
-	cimage_mfc.ReleaseDC();
-	cimage_mfc.Destroy();
+		HDC dc = ::GetDC(m_picture.m_hWnd);
+		cimage_mfc.BitBlt(dc, 0, 0);
 
-	CDialogEx::OnTimer(nIDEvent);
+		::ReleaseDC(m_picture.m_hWnd, dc);
 
+		cimage_mfc.ReleaseDC();
+		cimage_mfc.Destroy();
 
+		CDialogEx::OnTimer(nIDEvent);
 }
 
 
@@ -354,8 +440,6 @@ void CtestQDlg::OnBnClickedOk()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CDialogEx::OnOK();
-
-
 }
 
 
@@ -381,7 +465,6 @@ void CtestQDlg::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 
 UINT CtestQDlg::UpdateLog(LPVOID _mothod) {
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
-
 
 	//
 	// 테스트가 진행중이지 않을 경우
@@ -439,7 +522,6 @@ void CtestQDlg::OnBnClickedBtnOff()
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
 
-
 	setLog(L"[IR] Off Button Clicked");
 
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
@@ -453,32 +535,6 @@ void CtestQDlg::OnBnClickedBtnOff()
 	IRSend(gIRCode);
 }
 
-
-
-void CtestQDlg::OnBnClickedStart()
-{
-	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
-	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
-
-	if (pDlg->test_status == 0) {
-		m_pThread = AfxBeginThread(UpdateLog, this);
-
-	}
-	else {
-		setLog(L"이미 진행중입니다");
-	}
-
-}
-
-
-void CtestQDlg::OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult)
-{
-	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
-	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
-	*pResult = 0;
-}
-
-
 void CtestQDlg::OnBnClickedBtnOn()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
@@ -491,10 +547,15 @@ void CtestQDlg::OnBnClickedBtnOn()
 
 	char	gIRCode[2048] =
 		"0000 006C 0022 0002 0155 00A9 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0041 0015 0016 0015 0016 0015 0016 0015 0041 0015 0016 0015 0016 0015 0016 0015 0016 0015 0041 0015 0041 0015 0041 0015 0016 0015 0041 0015 0041 0015 0041 0015 0041 0015 0602 0155 0056 0015 0E4A";
-	m_list.SetItemText(0, 1, L"IR Blaster로 Power On Code를 송신합니다.");
 	IRSend(gIRCode);
 }
 
+void CtestQDlg::OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	*pResult = 0;
+}
 
 /// @brief wstring을 입력받아 list control에 출력한다.
 /// 로그를 출력하기 위한 함수
@@ -515,10 +576,10 @@ void CtestQDlg::setResources(void)
 {
 	CtestQDlg *pDlg = (CtestQDlg *)AfxGetApp()->GetMainWnd();
 	// SetWindowPos(NULL, x좌표, y좌표, 넓이, 높이, );
-// 윈도우 크기 설정
+    // 윈도우 크기 설정
 
-	pDlg->SetWindowPos(NULL, 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT, SWP_NOREPOSITION);
-	pDlg->MoveWindow(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
+	pDlg->SetWindowPos(NULL, 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT+1000, SWP_SHOWWINDOW);
+	pDlg->MoveWindow(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT+1000);
 
 	//
 	// Status Bar 설정을 위한 초기화 진행
@@ -567,7 +628,7 @@ void CtestQDlg::setResources(void)
 	// 반복 콤보박스
 	m_box1.SetWindowPos(NULL, WINDOW_MARGIN - 10, WINDOW_MARGIN, 300, WINDOW_HEIGHT - m_list_height - WINDOW_MARGIN * 5, NULL);
 	m_txt_repeat.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 2, 50, 20);
-	m_repeat_combo.MoveWindow(WINDOW_MARGIN + 100, WINDOW_MARGIN * 2, 100, 20);
+	m_repeat_combo.MoveWindow(WINDOW_MARGIN + 60, WINDOW_MARGIN * 2, 100, 20);
 
 	for (int i = 0; i < 12; i++) {
 		wstringstream temp_num;
@@ -575,11 +636,12 @@ void CtestQDlg::setResources(void)
 		m_repeat_combo.InsertString(i, temp_num.str().c_str());
 	}
 	m_repeat_combo.SetCurSel(11);
-	m_btn_start.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN + 300 + 10, 270, 50);
+	m_btn_start.MoveWindow(WINDOW_MARGIN + 110, WINDOW_MARGIN + 300 + 10, 85, 50);
+	m_btn_stop.MoveWindow(WINDOW_MARGIN + 200, WINDOW_MARGIN + 300 + 10, 58, 50);
 
 	m_txt_IR.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 4 - 20, 100, 20);
-	m_btn_on.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 4, 120, 20);
-	m_btn_off.MoveWindow(WINDOW_MARGIN + 150, WINDOW_MARGIN * 4, 120, 20);
+	m_btn_on.MoveWindow(WINDOW_MARGIN + 10, WINDOW_MARGIN * 4, 115, 20);
+	m_btn_off.MoveWindow(WINDOW_MARGIN + 150, WINDOW_MARGIN * 4, 115, 20);
 
 	int m_picture_width = 256;
 	int m_picture_height = 192;
@@ -587,6 +649,8 @@ void CtestQDlg::setResources(void)
 		WINDOW_MARGIN * 5,
 		m_picture_width,
 		m_picture_height);
+
+	m_btn_crop.MoveWindow(WINDOW_MARGIN + 180, WINDOW_MARGIN * 2, 80, 30);
 
 }
 
@@ -651,4 +715,80 @@ void CtestQDlg::setIRBlaster(void) {
 
 	// Register a callback function for IR receive...
 	fn_UUIRTSetReceiveCallback(hDrvHandle, &IRReceiveCallback, (void *)0xA5A5A5A5);
+}
+
+void CtestQDlg::OnBnClickedStart2()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	setLog(_T("uirtdrv.dll의 버전을 검색할 수 없습니다. \n"));
+}
+
+void CtestQDlg::OnBnClickedCrop()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	setLog(_T("이미지 Crop 처리 실행\n", 2));
+	KillTimer(1000);
+	pos = crop(*capture);
+	char buf[10];
+	char allBuf[100] = "";
+	wchar_t wtext[100];
+
+	//strcat(allBuf, "POS: ");
+	for (int i = 0; i < 4; i++) {
+		char allBuf[100] = "";
+		//setLog(to_string(pos[i]));
+		itoa(pos[i*2], buf, 10);
+		//strcat(allBuf, "[");
+		strcat(allBuf, buf);
+		strcat(allBuf, ", ");
+		itoa(pos[i * 2 + 1], buf, 10);
+		strcat(allBuf, buf);
+		//strcat(allBuf, "] ");
+		mbstowcs(wtext, allBuf, strlen(allBuf) + 1);
+		setLog(wtext);
+	}
+	//mbstowcs(wtext, allBuf, strlen(allBuf) + 1);
+	//setLog(wtext);
+
+	setLog(_T("이미지 Crop 처리 실행 완료\n"));
+	cropYn = 1;
+	SetTimer(1000, 30, NULL);
+}
+
+
+void CtestQDlg::OnBnClickedStart()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	bootTimeAval();
+	m_btn_start.EnableWindow(false);
+	m_btn_stop.EnableWindow(true);
+}
+
+void CtestQDlg::bootTimeAval()
+{
+	setLog(_T("부트 타임 프로세스 실행\n"));
+	CWatch.Start();
+	startYn = 1;
+}
+
+void CtestQDlg::OnBnClickedStop()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	//KillTimer(1000);
+	setLog(_T("부트 타임 프로세스 중지\n"));
+	CWatch.End();
+	CString str;
+	//str.Format(L"%l64dms", CWatch.TimeCheck());
+	// setLog(L(str));
+	char buf[10];
+	wchar_t wtext[100];
+			
+	sprintf(buf, "%.3f", ((double)CWatch.TimeCheck() / 1000));
+	mbstowcs(wtext, buf, strlen(buf) + 1);
+	setLog(wtext);
+
+	startYn = 0;
+	m_edit_diff.SetWindowTextW(L"");
+	m_btn_start.EnableWindow(true);
+	m_btn_stop.EnableWindow(false);
 }

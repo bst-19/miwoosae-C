@@ -4,8 +4,7 @@
 
 #pragma once
 #include "systems.h"
-
-
+#include "StopWatch.h"
 
 // CtestQDlg 대화 상자
 class CtestQDlg : public CDialogEx
@@ -47,15 +46,23 @@ public:
 	int setLog(LPWSTR str_log);
 	void setResources(void);
 	void setIRBlaster(void);
+	void bootTimeAval(void);
 
-	// 동영상 출력을 위한 변수
+	// 동영상 출력을 위한 변수	// 동영상 출력을 위한 변수
 	CStatic m_picture;
 	afx_msg void OnDestroy();
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	VideoCapture *capture;
 	Mat mat_frame;
+	Mat mat_tmp_frame; 
+	Mat diff_frame;
 	Mat dst, detected_edges;
 	CImage cimage_mfc;
+	CImage cimage_mfc_clone;
+	int *pos;
+	int cropYn = 0;
+	int startYn = 0;
+	STOPWATCH CWatch;
 
 	int low_threshold = 50;
 	int high_threshold = 150;
@@ -102,7 +109,16 @@ public:
 	afx_msg void OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult);
 	afx_msg void OnBnClickedBtnOn();
 	afx_msg void OnBnClickedBtnOff();
+//	afx_msg void OnBnClickedStart();
+
+
+	afx_msg void OnBnClickedStart2();
+//	afx_msg void OnBnClickedButton1();
+	afx_msg void OnBnClickedCrop();
+	CButton m_btn_crop;
 	afx_msg void OnBnClickedStart();
-
-
+	CButton m_btn_stop;
+	afx_msg void OnBnClickedStop();
+	CEdit m_edit_diff;
+	CEdit m_edit_time;
 };
