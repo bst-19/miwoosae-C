@@ -68,9 +68,12 @@ int* crop(VideoCapture cap){
 		myText = myText + ", " + "[" + to_string(point_x3) + ", " + to_string(point_y3) + "]";
 		myText = myText + ", " + "[" + to_string(point_x4) + ", " + to_string(point_y4) + "]";
 
+		if (point_x1 == 0) {
+			myText = "Please take the coordinates in the order of upper left, upper right, lower left, and lower right.";
+		}
 		myPoint.x = 10;
 		myPoint.y = 40;
-		putText(img_color, myText, myPoint, 2, 0.5, Scalar::all(255));
+		putText(img_color, myText, myPoint, 2, 0.4, Scalar::all(255));
 
 		// DELETE AFTER DEVISE
 		

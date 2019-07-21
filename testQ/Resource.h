@@ -19,6 +19,7 @@
 #define IDC_CROP                        1007
 #define IDC_BOX1                        1008
 #define IDC_EDIT2                       1009
+#define IDC_CROP2                       1010
 #define IDC_COMBO1                      1014
 #define IDC_STATIC_REPEAT               1015
 #define IDC_STATIC_IR                   1016
@@ -27,7 +28,9 @@
 #define IDC_BTN_ON                      1019
 #define IDC_BTN_OFF                     1020
 #define IDC_BUTTON1                     1021
+#define IDC_STATIC_IR4                  1021
 #define IDCANCEL                        1022
+#define IDC_CHECK1                      1023
 #define IDB_LOGO                        65535
 
 // Next default values for new objects
@@ -36,7 +39,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        138
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1023
+#define _APS_NEXT_CONTROL_VALUE         1024
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

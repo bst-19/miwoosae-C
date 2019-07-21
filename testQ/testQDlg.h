@@ -10,15 +10,15 @@
 class CtestQDlg : public CDialogEx
 {
 
-	#define WINDOW_WIDTH		(350)
-	#define WINDOW_HEIGHT		(600)
-	#define WINDOW_MARGIN		(25)
+#define WINDOW_WIDTH		(350)
+#define WINDOW_HEIGHT		(600)
+#define WINDOW_MARGIN		(25)
 
-	#define LOG_ERR			(900)
-	#define LOG_NORM		(800)
-	#define LOG_SUCCESS		(700)
+#define LOG_ERR			(900)
+#define LOG_NORM		(800)
+#define LOG_SUCCESS		(700)
 
-// 생성입니다.
+	// 생성입니다.
 public:
 	CtestQDlg(CWnd* pParent = nullptr);	// 표준 생성자입니다.
 
@@ -27,7 +27,7 @@ public:
 	enum { IDD = IDD_TESTQ_DIALOG };
 #endif
 
-	protected:
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 지원입니다.
 
 
@@ -54,7 +54,7 @@ public:
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	VideoCapture *capture;
 	Mat mat_frame;
-	Mat mat_tmp_frame; 
+	Mat mat_tmp_frame;
 	Mat diff_frame;
 	Mat dst, detected_edges;
 	CImage cimage_mfc;
@@ -70,6 +70,8 @@ public:
 	int low_threshold = 50;
 	int high_threshold = 150;
 
+	int changeTag = 0;
+
 	// 이미지 유사도를 위한 변수 선언
 	int h_bins = 50, s_bins = 60;
 	int histSize[2] = { h_bins, s_bins };
@@ -78,7 +80,7 @@ public:
 	const float * ranges[2] = { h_ranges, s_ranges };
 	int channels[2] = { 0, 1 };
 
-	Mat src_base, re_base, hist_base; 
+	Mat src_base, re_base, hist_base;
 	Mat dst_target, re_target, hist_target;
 
 	// 상태표시줄 (Status Bar) 표현을 위한 변수
@@ -99,8 +101,10 @@ public:
 	bool m_bThreadStart;
 	CWinThread *m_pThread;
 	ThreadWorking m_ThreadWorkType;
-	
+
 	static UINT UpdateLog(LPVOID _mothod);
+	static UINT ThreadFirst(LPVOID _mothod);
+
 
 	afx_msg void OnStnClickedPicture();
 	afx_msg void OnBnClickedOk();
@@ -123,16 +127,35 @@ public:
 	afx_msg void OnLvnItemchangedLog(NMHDR *pNMHDR, LRESULT *pResult);
 	afx_msg void OnBnClickedBtnOn();
 	afx_msg void OnBnClickedBtnOff();
-//	afx_msg void OnBnClickedStart();
+	void BtnOnFunc(int param);
+	void BtnOffFunc(int param);
+	void StartFunc(int param);
+	void StopFunc(int param);
+
+	void makeExcel(int num);
+
+	wchar_t* intToWchar(int num);
+	//	afx_msg void OnBnClickedStart();
 
 
 	afx_msg void OnBnClickedStart2();
-//	afx_msg void OnBnClickedButton1();
+	//	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedCrop();
 	CButton m_btn_crop;
 	afx_msg void OnBnClickedStart();
+	
 	CButton m_btn_stop;
 	afx_msg void OnBnClickedStop();
+	
 	CEdit m_edit_diff;
 	CEdit m_edit_time;
+
+	int repeatCnt = 0;
+	int repeatNow = 0;
+
+	wchar_t result[12][50];
+	CButton m_btn_nocrop;
+	afx_msg void OnBnClickedCrop2();
+	CStatic m_txt_etc;
+	CButton m_chbx_etc;
 };
